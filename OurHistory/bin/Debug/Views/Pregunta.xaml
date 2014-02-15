@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="OurHistory.Views.Pregunta"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OurHistory.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+    </Page.Resources>
+    <StackPanel>
+        <TextBlock FontSize="30">
+            <Bold>Pregunta</Bold>
+        </TextBlock>
+        <TextBlock>
+            <Run Text="Codigo : " />
+            <Run Text="{Binding Codigo}" />
+        </TextBlock>
+        <TextBlock>
+            <Run Text="Descripcion : " />
+            <Run Text="{Binding Descripcion}" />
+        </TextBlock>
+        <TextBlock Text="Resp Opcionales:" />
+        <ListBox ItemsSource="{Binding RespOpcionales}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock>
+            <Run Text="Resp Correcta : " />
+            <Run Text="{Binding RespCorrecta}" />
+        </TextBlock>
+        <TextBlock>
+            <Run Text="Nivel: " />
+            <Run Text="{Binding Nivel}" />
+        </TextBlock>
+        <TextBlock>
+            <Run Text="Puntaje : " />
+            <Run Text="{Binding Puntaje}" />
+        </TextBlock>
+    </StackPanel>
+</Page>
+

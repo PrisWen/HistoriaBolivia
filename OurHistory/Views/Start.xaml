@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="OurHistory.Views.Start"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OurHistory.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="grid0">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Picture/Background.JPG"/>
+        </Grid.Background>
+        <TextBlock x:Name="txtIncorrecto" Text="txt" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70" Width="100" Height="50"/>
+        <Image Name="MapaBolivia" Source="/Assets/Picture/Bolivia.png"/>
+       
+        <Ellipse  Name="LaPaz" Fill="Red"
+                 HorizontalAlignment="Left" Visibility="Collapsed"
+                 Height="23" Margin="425,322,0,0" 
+                  
+                 Stroke="Black" VerticalAlignment="Top" Width="26"/>
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1050,70,0,0" FontSize="25">
+            <Run>PUNTAJE: </Run>
+            <Run x:Name="txtPorcentaje"> 0 </Run>
+
+        </TextBlock>
+        <Button Style="{StaticResource BackButtonStyle}" 
+                Name="BotonAtras"  Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button Name="botob" Content="Button" HorizontalAlignment="Left" Visibility="Collapsed" Height="57" Margin="64,656,0,0" VerticalAlignment="Top" Width="162"/>
+        <Button Click="Button_Click"  Visibility="Collapsed">PUZZLE</Button>
+
+        <Border BorderBrush="Black" BorderThickness="3" Margin="70,250"
+                Width="254" Height="200" 
+                HorizontalAlignment="Left" VerticalAlignment="Top">
+            
+            <Grid Height="290">
+                <Border BorderBrush="Black" BorderThickness="3" Width="250" Height="50" VerticalAlignment="Top">
+                <TextBlock Foreground="Black" FontSize="26">Preguntas Generales</TextBlock>
+                </Border>
+
+                <Image Source="/Assets/Picture/bandera.jpg" Opacity="0.3" Height="150" Width="250" VerticalAlignment="Top" Margin="0,50" Stretch="Fill"/>
+               
+                <!--<Ellipse Fill="Red" Width="26" Height="24"  Margin="50,60,0,0" />
+                <Ellipse Fill="Yellow" Width="26" Height="24"  Margin="100,110,0,0" />
+                <Ellipse Fill="Green" Width="26" Height="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,160,0,0" />-->
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

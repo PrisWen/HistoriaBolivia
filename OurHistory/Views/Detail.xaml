@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="OurHistory.Views.Detail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OurHistory.Views"
+    xmlns:vm="using:OurHistory.ViewModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFC0CACD" >
+        <Grid.Resources>
+            <vm:DefaultViewModel x:Key="DefaultVM"/>
+        </Grid.Resources>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="5*"/>
+
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="0,0,0,0" DataContext="{Binding Source={StaticResource DefaultVM},Path=History}">
+            <Border BorderBrush="AntiqueWhite" BorderThickness="2" Background="#FF1A2B59">
+                <TextBlock Text="{Binding Titulo}"  Margin="60,0,0,0" FontSize="60"/>
+            </Border>
+            <StackPanel Background="White" Height="600" Margin="0,0,70,0">
+                <ScrollViewer Height="600">
+                    <TextBlock FontSize="25" 
+                           Margin="60,0,0,0"
+                           TextWrapping="Wrap"
+                           Foreground="#FF1A2B59"
+                           Text="{Binding Descripcion}"/>
+
+                </ScrollViewer>
+            </StackPanel>
+            <StackPanel Background="Azure" Height="90" Margin="0,0,70,0">
+                <Image Source="/Assets/Picture/JUGAR1.png" 
+                           Height="90" Width="150"
+                           Stretch="UniformToFill" Tapped="Image_Tapped_1" >
+                </Image>
+
+            </StackPanel>
+        </StackPanel >
+        <StackPanel Grid.Column="1" Margin="40,70,0,70" DataContext="{Binding Source={StaticResource DefaultVM},Path=History}">
+            <!--aca deberia ser una coleccion de fotos-->
+            <!--<Image Source="{Binding Fotos}" Stretch="Fill" />-->
+            <ScrollViewer Height="630" >
+                <ListView ItemsSource="{Binding Fotos}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding}" Stretch="Fill" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollViewer>
+        </StackPanel>
+        <!--<StackPanel Grid.Column="2" Margin="0,0,0,0" >
+            <ScrollViewer Height="770">
+                <StackPanel Background="White" Margin="0,0,10,0">
+                    <TextBlock Text="Extras" 
+                               Margin="30,0,0,10" 
+                               Foreground="#FF1A2B59" 
+                               FontSize="50"/>
+                    <TextBlock FontSize="25" 
+                           TextWrapping="Wrap"
+                           Margin="30,0,0,0"
+                           Foreground="#FF1A2B59"
+                           Text="Cupcake ipsum dolor sit amet I love topping marshmallow. I love marshmallow lemon drops danish sweet roll powder applicake lemon drops. 
+Tiramisu cheesecake caramels jujubes croissant "/>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>-->
+
+    </Grid>
+</Page>

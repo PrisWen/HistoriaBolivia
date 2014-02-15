@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WENDY</Machine>
+    <WindowsUser>Priscila Wendy</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\OurHistory.exe">
+      <PackagePath>OurHistory.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\OurHistory.pdb">
+      <PackagePath>OurHistory.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\amarillo.jpg">
+      <PackagePath>Assets\Picture\amarillo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\bandera.jpg">
+      <PackagePath>Assets\Picture\bandera.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\dificil.jpg">
+      <PackagePath>Assets\Picture\dificil.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\facil.jpg">
+      <PackagePath>Assets\Picture\facil.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\fondo0.jpg">
+      <PackagePath>Assets\Picture\fondo0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\medio.jpg">
+      <PackagePath>Assets\Picture\medio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\rojo.jpg">
+      <PackagePath>Assets\Picture\rojo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\verde.jpg">
+      <PackagePath>Assets\Picture\verde.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Images\Puzzle\imageTest1.jpg">
+      <PackagePath>Images\Puzzle\imageTest1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\cultura.jpg">
+      <PackagePath>Assets\Picture\cultura.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\Background.JPG">
+      <PackagePath>Assets\Picture\Background.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\Fondo.jpg">
+      <PackagePath>Assets\Picture\Fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\siguiente.png">
+      <PackagePath>Assets\Picture\siguiente.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\Bolivia.png">
+      <PackagePath>Assets\Picture\Bolivia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\Picture\JUGAR1.png">
+      <PackagePath>Assets\Picture\JUGAR1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\CarpetaJson\ListaPreguntas.json">
+      <PackagePath>CarpetaJson\ListaPreguntas.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Sounds\aplausos.mp3">
+      <PackagePath>Sounds\aplausos.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Sounds\buu.mp3">
+      <PackagePath>Sounds\buu.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Sounds\Spotlight foco fanfarria 2.MP3">
+      <PackagePath>Sounds\Spotlight foco fanfarria 2.MP3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\UserControls\PreguntaControl.xaml">
+      <PackagePath>UserControls\PreguntaControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\Views\DetallePregunta.xaml">
+      <PackagePath>Views\DetallePregunta.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\Views\MainPage.xaml">
+      <PackagePath>Views\MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\Views\Detail.xaml">
+      <PackagePath>Views\Detail.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\Views\Puzzle\SelectImagePage.xaml">
+      <PackagePath>Views\Puzzle\SelectImagePage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\Views\Start.xaml">
+      <PackagePath>Views\Start.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\OurHistory5\OurHistory\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

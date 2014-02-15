@@ -1,0 +1,121 @@
+﻿{
+	"Preguntas": [
+		{
+			"codigo" : 106,
+			"descripcion" : "es una pregunta real de nivel 1",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "1",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 207,
+			"descripcion" : "es una pregunta real de nivel 2",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "2",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 399,
+			"descripcion" : "es una pregunta real de nivel 3",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "3",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 476,
+			"descripcion" : "otra pregunta real de nivel 3",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "3",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 506,
+			"descripcion" : "es una pregunta real de nivel 1",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "1",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 607,
+			"descripcion" : "es una pregunta real de nivel 2",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "2",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 799,
+			"descripcion" : "es una pregunta real de nivel 3",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "3",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 876,
+			"descripcion" : "otra pregunta real de nivel 3",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "3",
+			"puntaje" : 100,
+		},
+		{
+			"codigo" : 976,
+			"descripcion" : "otra pregunta real de nivel 3",
+			"respuestasO" : [
+				"222-22222",
+				"777-77777",
+				"777-77787"
+			],
+			"respuestaC" : "Respuesta correcta.......",
+			"detalleRespuesta" : "descaf fdsfsdfs",
+			"nivel" : "3",
+			"puntaje" : 100,
+		}
+	]
+}
