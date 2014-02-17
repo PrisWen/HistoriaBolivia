@@ -103,7 +103,12 @@ namespace OurHistory.Views
             grid0.Children.Add(el);
             //
             //Pd0.Visibility = Visibility.Collapsed;
+            Creditos.Click += Creditos_Click;
+        }
 
+        void Creditos_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Creditos));
         }
 
 

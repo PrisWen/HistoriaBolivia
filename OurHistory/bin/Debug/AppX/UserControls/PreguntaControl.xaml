@@ -9,8 +9,11 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <Grid Background="#FF8A67AA">
-        
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Picture/fondoPregunta.jpg"/>
+        </Grid.Background>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="4*"/>
             <RowDefinition/>
@@ -20,14 +23,14 @@
         <Border BorderBrush="White" BorderThickness="2" Margin="5" Padding="5" Grid.Row="0" Grid.RowSpan="2">
             <StackPanel>
                 <MediaElement Name="SoundsRespuesta"/>
-                <TextBlock x:Name="UserPregunta" Margin="30,30" HorizontalAlignment="Center" TextWrapping="Wrap"
-                    Text="¿Cuál es la capital constitucional de Bolivia?" Foreground="AliceBlue"  FontSize="40"/>
-                <ListBox x:ConnectionId='2' x:Name="lstOpciones" Visibility="Visible" Height="350"                                                 Margin="20" ItemTemplate="{StaticResource listaPreguntas}">
+                <TextBlock x:Name="UserPregunta" Margin="38,30,36,30" HorizontalAlignment="Center" TextWrapping="Wrap"
+                    Text="¿Cuál es la capital constitucional de Bolivia?" Foreground="AliceBlue"  FontSize="40" Width="652"/>
+                <ListBox x:ConnectionId='2' x:Name="lstOpciones" Visibility="Visible" Height="316"                                                 Margin="32,20,36,20" ItemTemplate="{StaticResource listaPreguntas}">
 
                     <ListBoxItem Margin="30,30" HorizontalAlignment="Center" FontSize="20">Sucre</ListBoxItem>
                 </ListBox>
-                <ScrollViewer Height="250">
-                    <TextBlock x:Name="detalleRespC" FontSize="30" Text="wwwer" Visibility="Collapsed" TextWrapping="Wrap" />
+                <ScrollViewer Height="300" Width="650">
+                    <TextBlock x:Name="detalleRespC" FontSize="27" Text="wwwer" Visibility="Collapsed" TextWrapping="Wrap" />
                 </ScrollViewer>
             </StackPanel>
         </Border>

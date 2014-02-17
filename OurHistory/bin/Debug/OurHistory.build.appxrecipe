@@ -38,6 +38,9 @@
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondo0.jpg">
       <PackagePath>Assets\Picture\fondo0.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondoPregunta.jpg">
+      <PackagePath>Assets\Picture\fondoPregunta.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\medio.jpg">
       <PackagePath>Assets\Picture\medio.jpg</PackagePath>
     </AppxPackagedFile>

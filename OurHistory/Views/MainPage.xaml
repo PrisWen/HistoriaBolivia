@@ -28,29 +28,29 @@
             <RowDefinition Height="611*"/>
         </Grid.RowDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="/Assets/Picture/fondo0.jpg"/>
+            <ImageBrush ImageSource="/Assets/Picture/fondo.jpg"/>
         </Grid.Background>
         <!--<Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="36" Margin="764,133,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="35"/>-->
-        <Button Name="facil"  HorizontalAlignment="Left" Height="70" Margin="213,207,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
+        <Button Name="facil"  HorizontalAlignment="Left" Height="70" Margin="288,222,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Picture/facil.jpg">
 
                 </ImageBrush>
             </Button.Background>
         </Button>
-        <Button Name="medio"  HorizontalAlignment="Left" Height="74" Margin="213,310,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
+        <Button Name="medio"  HorizontalAlignment="Left" Height="74" Margin="288,325,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Picture/medio.jpg">
                 </ImageBrush>
             </Button.Background>
         </Button>
-        <Button Name="dificil"  HorizontalAlignment="Left" Height="74" Margin="213,423,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
+        <Button Name="dificil"  HorizontalAlignment="Left" Height="74" Margin="288,438,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Picture/dificil.jpg">
                 </ImageBrush>
             </Button.Background>
         </Button>
         <Image Source="/Assets/Picture/Bolivia.png" Margin="644,138,203,88" Grid.RowSpan="2"/>
-        
+
     </Grid>
 </Page>

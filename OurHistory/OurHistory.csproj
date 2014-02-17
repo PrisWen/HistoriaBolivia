@@ -154,6 +154,7 @@
     <Content Include="Assets\Picture\dificil.jpg" />
     <Content Include="Assets\Picture\facil.jpg" />
     <Content Include="Assets\Picture\fondo0.jpg" />
+    <Content Include="Assets\Picture\fondoPregunta.jpg" />
     <Content Include="Assets\Picture\medio.jpg" />
     <Content Include="Assets\Picture\rojo.jpg" />
     <Content Include="Assets\Picture\siguiente.png" />

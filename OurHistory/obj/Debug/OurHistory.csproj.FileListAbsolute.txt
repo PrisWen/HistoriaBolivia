@@ -123,9 +123,9 @@ C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Credito
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\DetallePregunta.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Detail.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.xaml
-C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.xaml
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.exe
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.pdb
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.csproj.GenerateResource.Cache

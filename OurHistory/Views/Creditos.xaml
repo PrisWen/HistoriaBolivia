@@ -14,15 +14,15 @@
         <Grid.Resources>
             <Storyboard x:Name="Storyboard1">
                 <DoubleAnimation From="700" To="-1000"
-                                 Duration="00:00:10"
+                                 Duration="00:00:20"
                                  Storyboard.TargetName="translate"
                                  Storyboard.TargetProperty="TranslateY"/>
                 <DoubleAnimation From="950" To="-1000"
-                                 Duration="00:00:12"
+                                 Duration="00:00:22"
                                  Storyboard.TargetName="translate1"
                                  Storyboard.TargetProperty="TranslateY"/>
                 <DoubleAnimation From="1670" To="-1000"
-                                 Duration="00:00:16"
+                                 Duration="00:00:30"
                                  Storyboard.TargetName="translate2"
                                  Storyboard.TargetProperty="TranslateY"/>
             </Storyboard>
