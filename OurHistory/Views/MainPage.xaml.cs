@@ -34,7 +34,15 @@ namespace OurHistory
             facil.Click += facil_Click;
             medio.Click += medio_Click;
             dificil.Click += dificil_Click;
+            Creditos.Click += Creditos_Click;
         }
+
+        void Creditos_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Creditos));
+        }
+
+        
 
         void dificil_Click(object sender, RoutedEventArgs e)
         {

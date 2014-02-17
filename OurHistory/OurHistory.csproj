@@ -124,6 +124,9 @@
     </Compile>
     <Compile Include="ViewModels\DefaultViewModel.cs" />
     <Compile Include="ViewModels\Puzzle\SelectImageViewModel.cs" />
+    <Compile Include="Views\Creditos.xaml.cs">
+      <DependentUpon>Creditos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\DetallePregunta.xaml.cs">
       <DependentUpon>DetallePregunta.xaml</DependentUpon>
     </Compile>
@@ -145,6 +148,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\Picture\FondoCreditos.jpg" />
     <Content Include="Assets\Picture\amarillo.jpg" />
     <Content Include="Assets\Picture\bandera.jpg" />
     <Content Include="Assets\Picture\dificil.jpg" />
@@ -185,6 +189,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="UserControls\PreguntaControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Creditos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

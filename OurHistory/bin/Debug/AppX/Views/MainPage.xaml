@@ -6,7 +6,22 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    <Page.Resources>
+        <Style x:Key="botCreditos" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="AppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Creditos"/>
+            <Setter Property="Content" Value="!"/>
+        </Style>
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <AppBar x:Name="AppBar" IsSticky="True" Background="Chocolate">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Name="Creditos" Style="{StaticResource botCreditos}" />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="157*"/>
@@ -36,7 +51,7 @@
             </Button.Background>
         </Button>
         <Image Source="/Assets/Picture/Bolivia.png" Margin="644,138,203,88" Grid.RowSpan="2"/>
-
+        
     </Grid>
 </Page>
 

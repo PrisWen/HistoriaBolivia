@@ -55,7 +55,6 @@ namespace OurHistory.Views
         //PreguntaControl pregCtrl = new PreguntaControl();
 
         private string varIncorrecto;
-
         public string VarIncorrecto
         {
             get { return varIncorrecto; }
@@ -64,8 +63,6 @@ namespace OurHistory.Views
                 txtIncorrecto.Text = VarIncorrecto;
             }
         }
-        
-
         public Start()
         {
             this.InitializeComponent();
