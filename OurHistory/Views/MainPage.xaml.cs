@@ -27,6 +27,26 @@ namespace OurHistory
         {
             this.InitializeComponent();
             Loaded += MainPage_Loaded;
+            Window.Current.SizeChanged += Current_SizeChanged;
+        }
+
+        void Current_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
+        {
+            if (e.Size.Width <= 1000)
+            {
+                //this.GridletraCancion.Margin = new Thickness(-500, 0, 0, 0);
+                //this.TextBlockSongLyrics.Margin = new Thickness(10, 100, 0, 30);
+                //this.StackPanelDatos.Visibility = Visibility.Collapsed;
+                this.imgPausa.Visibility = Visibility.Visible;
+                this.grid0.Visibility = Visibility.Collapsed;
+
+
+            }
+            else
+            {
+                this.grid0.Visibility = Visibility.Visible;
+                this.imgPausa.Visibility = Visibility.Collapsed;
+            }
         }
 
         void MainPage_Loaded(object sender, RoutedEventArgs e)
