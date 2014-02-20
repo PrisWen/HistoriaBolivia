@@ -187,3 +187,4 @@ C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\re
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\pri.resfiles
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\LanguageQualifiers.txt
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\ProjectArchitectures.txt
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.csprojResolveAssemblyReference.cache
