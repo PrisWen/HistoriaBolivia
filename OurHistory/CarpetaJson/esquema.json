@@ -1,0 +1,89 @@
+﻿{
+	"listaCompleta": [
+		{
+			"anio" : 1805,
+			"lstAnio" : [
+				{
+					"pertenece": "SUCESOS EN ESPAÑA",
+					"Sucesos": [
+						"Napoleón invade España",
+						"Carlos IV abdica en favor de Fernando VII",
+						"Junta de Cádiz",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LAS CIUDADES",
+					"Sucesos": [
+						"Goyeneche a Chuquisaca como emisario de la junta de Cádiz",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
+					"Sucesos": [
+						"Insurrección en Cuzco",
+						"Virreys Liniers",
+						"Invasion Inglesa a Buenos Aires",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1809,
+			"lstAnio" : [
+				{
+					"pertenece": "SUCESOS EN LAS CIUDADES",
+					"Sucesos": [
+						"Levantamiento en Chuquisaca",
+						"Levantamiento en La Paz",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
+					"Sucesos": [
+						"Virrey Cisneros sustituye a Liniers",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1810,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"Goyeneche vence a Castelli(Guaqui)",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LAS CIUDADES",
+					"Sucesos": [
+						"Ejecucion de los revolucionarios de 1809",
+					],
+				},
+				{
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDIGENAS",
+					"Sucesos": [
+						"Los Padilla",
+					],
+				},
+				{
+					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
+					"Sucesos": [
+						"Primer ejército Auxiliar",
+						"Victoria de Suipacha",
+						"En Potosí Castelli ejecuta a Paula Sanz",
+						"Ejército Auxiliar se lleva la plata de la moneda",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
+					"Sucesos": [
+						"Junta de Buenos Aires",
+						"Reincorporación de Charcas al Virreinato del Perú",
+						"El Virrey Abascal",
+					],
+				},
+			],
+		},
+	],
+}

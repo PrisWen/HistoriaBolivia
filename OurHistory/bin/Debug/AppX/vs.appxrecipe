@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-20T00:24:26.010</Modified>
+      <Modified>2014-02-20T01:22:50.579</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe">
       <PackagePath>OurHistory.exe</PackagePath>
-      <Modified>2014-02-20T00:26:33.022</Modified>
+      <Modified>2014-02-20T01:22:50.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -139,7 +139,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2014-02-20T00:20:29.560</Modified>
+      <Modified>2014-02-20T01:18:53.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
@@ -156,6 +156,14 @@
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\DetallePregunta.xaml">
       <PackagePath>Views\DetallePregunta.xaml</PackagePath>
       <Modified>2014-02-20T00:20:29.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\HistoriaYear.xaml">
+      <PackagePath>Views\HistoriaYear.xaml</PackagePath>
+      <Modified>2014-02-20T01:18:00.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\LineaDelTiempo.xaml">
+      <PackagePath>Views\LineaDelTiempo.xaml</PackagePath>
+      <Modified>2014-02-20T01:18:00.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\MainPage.xaml">
       <PackagePath>Views\MainPage.xaml</PackagePath>
@@ -175,7 +183,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-02-20T00:24:25.523</Modified>
+      <Modified>2014-02-20T01:22:50.392</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

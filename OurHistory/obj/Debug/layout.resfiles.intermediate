@@ -24,6 +24,8 @@ UserControls\PreguntaControl.xaml
 Views\Creditos.xaml
 Views\Detail.xaml
 Views\DetallePregunta.xaml
+Views\HistoriaYear.xaml
+Views\LineaDelTiempo.xaml
 Views\MainPage.xaml
 Views\Puzzle\SelectImagePage.xaml
 Views\Start.xaml

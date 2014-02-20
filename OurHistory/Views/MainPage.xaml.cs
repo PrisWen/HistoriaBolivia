@@ -29,7 +29,6 @@ namespace OurHistory
             Loaded += MainPage_Loaded;
             Window.Current.SizeChanged += Current_SizeChanged;
         }
-
         void Current_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
         {
             if (e.Size.Width <= 1000)
@@ -39,8 +38,6 @@ namespace OurHistory
                 //this.StackPanelDatos.Visibility = Visibility.Collapsed;
                 this.imgPausa.Visibility = Visibility.Visible;
                 this.grid0.Visibility = Visibility.Collapsed;
-
-
             }
             else
             {

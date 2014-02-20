@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="OurHistory.Views.HistoriaYear"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OurHistory.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Button Style="{StaticResource BackButtonStyle}" 
+                Name="BotonAtras"  Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <StackPanel>
+            <TextBlock Name="year" Text="añoX" FontSize="55" Margin="20,70,0,0"/>
+            <ListBox x:Name="lstAnios"
+                     ItemTemplate="{StaticResource listaAnios}"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

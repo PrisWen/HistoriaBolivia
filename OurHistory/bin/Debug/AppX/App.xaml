@@ -21,6 +21,11 @@
                     <TextBlock Text="{Binding Opcion}" FontSize="18" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </StackPanel>
             </DataTemplate>
+            <DataTemplate x:Key="listaAnios">
+                <StackPanel  Margin="10,25,10,25">
+                    <TextBlock Text="{Binding anio}" FontSize="18" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </DataTemplate>
         </ResourceDictionary>
 
 

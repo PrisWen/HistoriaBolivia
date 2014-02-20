@@ -20,27 +20,41 @@ namespace OurHistory.Views
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class Creditos : Page
+    public sealed partial class LineaDelTiempo : Page
     {
-        public Creditos()
+        string anio = "1805";
+        public LineaDelTiempo()
         {
             this.InitializeComponent();
-            this.Loaded += Creditos_Loaded;
+            this.Loaded += LineaDelTiempo_Loaded;
         }
-        void Creditos_Loaded(object sender, RoutedEventArgs e)
+
+        void LineaDelTiempo_Loaded(object sender, RoutedEventArgs e)
         {
-            CargandoCreditos();
-            Storyboard1.Begin();
+            sliderLineTime.ValueChanged += sliderLineTime_ValueChanged;
             BotonAtras.Click += BotonAtras_Click;
+            gohistory.Click += gohistory_Click;
         }
-        void CargandoCreditos()
+
+        void gohistory_Click(object sender, RoutedEventArgs e)
         {
-            txtCredits2.Text = "DESIGNERS\n\nEspinoza Tito Priscila\nGuerrero Quiñajo Milenka\nParisaca Quispe Alison\n\n\nDEVELOPERS\n\nEspinoza Tito Priscila\nGuerrero Quiñajo Milenka\nParisaca Quispe Alison";
-            txtFuentes.Text = "FUENTE\n\nHistoria de Bolivia\nOctava Edición\nCarlos D. Mesa Gisbert\nJose de Mesa\nTeresa Gisbert\nEditorial Gisbert\nLibro V - La Independencia\n1800 - 1820";
+            this.Frame.Navigate(typeof(HistoriaYear), anio);
         }
+
         void BotonAtras_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+        void sliderLineTime_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            usuarioTime.Text = (sliderLineTime.Value).ToString();
+            anio = (int.Parse((sliderLineTime.Value).ToString())).ToString();
+
+            //anio = int.Parse(usuarioTime.Text);
+        }
+        void cargandoDatosdeXAnio()
+        {
+
         }
     }
 }

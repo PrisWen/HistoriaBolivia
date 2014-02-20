@@ -117,6 +117,12 @@
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\DetallePregunta.xaml">
       <PackagePath>Views\DetallePregunta.xaml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\HistoriaYear.xaml">
+      <PackagePath>Views\HistoriaYear.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\LineaDelTiempo.xaml">
+      <PackagePath>Views\LineaDelTiempo.xaml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\MainPage.xaml">
       <PackagePath>Views\MainPage.xaml</PackagePath>
     </AppxPackagedFile>

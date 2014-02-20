@@ -188,3 +188,9 @@ C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\pr
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\LanguageQualifiers.txt
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\ProjectArchitectures.txt
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.csprojResolveAssemblyReference.cache
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.i.cs
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.cs
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.i.cs
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.cs
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.xaml
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.xaml
