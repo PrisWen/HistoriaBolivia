@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-20T01:22:50.579</Modified>
+      <Modified>2014-02-21T18:28:52.037</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe">
       <PackagePath>OurHistory.exe</PackagePath>
-      <Modified>2014-02-20T01:22:50.178</Modified>
+      <Modified>2014-02-21T19:47:16.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -121,6 +121,10 @@
       <PackagePath>CarpetaJson\ListaPreguntas.json</PackagePath>
       <Modified>2014-02-20T00:20:29.778</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\CarpetaJson\esquema.json">
+      <PackagePath>CarpetaJson\esquema.json</PackagePath>
+      <Modified>2014-02-21T17:53:43.522</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Sounds\aplausos.mp3">
       <PackagePath>Sounds\aplausos.mp3</PackagePath>
       <Modified>2014-02-20T00:20:29.911</Modified>
@@ -139,7 +143,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2014-02-20T01:18:53.074</Modified>
+      <Modified>2014-02-21T19:13:18.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
@@ -159,7 +163,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\HistoriaYear.xaml">
       <PackagePath>Views\HistoriaYear.xaml</PackagePath>
-      <Modified>2014-02-20T01:18:00.558</Modified>
+      <Modified>2014-02-21T19:43:52.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\LineaDelTiempo.xaml">
       <PackagePath>Views\LineaDelTiempo.xaml</PackagePath>
@@ -167,7 +171,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\MainPage.xaml">
       <PackagePath>Views\MainPage.xaml</PackagePath>
-      <Modified>2014-02-20T00:20:29.993</Modified>
+      <Modified>2014-02-21T05:40:10.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Detail.xaml">
       <PackagePath>Views\Detail.xaml</PackagePath>
@@ -183,7 +187,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-02-20T01:22:50.392</Modified>
+      <Modified>2014-02-21T18:28:51.849</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

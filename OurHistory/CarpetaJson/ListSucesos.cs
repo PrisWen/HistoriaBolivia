@@ -8,8 +8,8 @@ namespace OurHistory.CarpetaJson
 {
     class ListSucesos
     {
-        private string pertenece { get; set; }
-        private List<string> Sucesos { get; set; }
+        public string pertenece { get; set; }
+        public List<string> Sucesos { get; set; }
 
         public string Pertenece
         {

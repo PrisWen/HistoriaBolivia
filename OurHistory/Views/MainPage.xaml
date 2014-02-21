@@ -18,6 +18,7 @@
             <Grid>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                     <Button x:Name="Creditos" Style="{StaticResource botCreditos}" />
+                    <Button x:Name="lineTime" Style="{StaticResource botCreditos}" />
                 </StackPanel>
             </Grid>
         </AppBar>

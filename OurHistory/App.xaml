@@ -21,9 +21,15 @@
                     <TextBlock Text="{Binding Opcion}" FontSize="18" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </StackPanel>
             </DataTemplate>
-            <DataTemplate x:Key="listaAnios">
+            
+            <DataTemplate x:Key="listaAnio">
                 <StackPanel  Margin="10,25,10,25">
-                    <TextBlock Text="{Binding anio}" FontSize="18" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Text="{Binding pertenece}" FontSize="18" Foreground="Blue" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </DataTemplate>
+            <DataTemplate x:Key="listaSucesos">
+                <StackPanel  Margin="10,25,10,25">
+                    <TextBlock Text="{Binding}" FontSize="18" Foreground="Red" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </StackPanel>
             </DataTemplate>
         </ResourceDictionary>

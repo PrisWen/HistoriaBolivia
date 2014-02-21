@@ -194,3 +194,4 @@ C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDe
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.xaml
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\esquema.json

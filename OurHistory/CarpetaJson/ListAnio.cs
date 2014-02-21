@@ -8,8 +8,8 @@ namespace OurHistory.CarpetaJson
 {
     class ListAnio
     {
-        private string anio { get; set; }
-        private List<ListSucesos> lstAnio { get; set; }
+        public string anio { get; set; }
+        public List<ListSucesos> lstAnio { get; set; }
         public string Anio
         {
             get { return anio; }

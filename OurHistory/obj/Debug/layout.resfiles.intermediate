@@ -29,6 +29,7 @@ Views\LineaDelTiempo.xaml
 Views\MainPage.xaml
 Views\Puzzle\SelectImagePage.xaml
 Views\Start.xaml
+CarpetaJson\esquema.json
 CarpetaJson\ListaPreguntas.json
 Common\ReadMe.txt
 Images\Puzzle\imageTest1.jpg

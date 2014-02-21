@@ -107,7 +107,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CarpetaJson\Esquema.cs" />
+    <Compile Include="CarpetaJson\ListAnio.cs" />
     <Compile Include="CarpetaJson\ListaPreguntas.cs" />
+    <Compile Include="CarpetaJson\ListSucesos.cs" />
     <Compile Include="CarpetaJson\Pregunta.cs" />
     <Compile Include="Common\BindableBase.cs" />
     <Compile Include="Common\BooleanNegationConverter.cs" />
@@ -129,6 +132,12 @@
     </Compile>
     <Compile Include="Views\DetallePregunta.xaml.cs">
       <DependentUpon>DetallePregunta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HistoriaYear.xaml.cs">
+      <DependentUpon>HistoriaYear.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LineaDelTiempo.xaml.cs">
+      <DependentUpon>LineaDelTiempo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -166,6 +175,9 @@
     <Content Include="Sounds\aplausos.mp3" />
     <Content Include="Sounds\buu.mp3" />
     <Content Include="Sounds\Spotlight foco fanfarria 2.MP3" />
+    <Content Include="CarpetaJson\esquema.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="OurHistory_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -198,6 +210,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\DetallePregunta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HistoriaYear.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LineaDelTiempo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

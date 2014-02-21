@@ -10,7 +10,7 @@ namespace OurHistory.CarpetaJson
     {
         //public List<Pregunta> Preguntas { get; set; }
 
-        private List<Pregunta>  preguntas;
+        public List<Pregunta>  preguntas;
 
         public List<Pregunta> Preguntas
         {

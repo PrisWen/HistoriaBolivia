@@ -52,6 +52,12 @@ namespace OurHistory
             medio.Click += medio_Click;
             dificil.Click += dificil_Click;
             Creditos.Click += Creditos_Click;
+            lineTime.Click += lineTime_Click;
+        }
+
+        void lineTime_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LineaDelTiempo));
         }
 
         void Creditos_Click(object sender, RoutedEventArgs e)

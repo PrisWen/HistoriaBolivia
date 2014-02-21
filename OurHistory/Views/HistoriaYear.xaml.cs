@@ -26,6 +26,8 @@ namespace OurHistory.Views
     {
         string yearReceived;
         Esquema EsquemaJson;
+        List<ListAnio> ListofYearAll = new List<ListAnio>();
+        ListAnio contYear = new ListAnio();
         public HistoriaYear()
         {
             this.InitializeComponent();
@@ -35,12 +37,7 @@ namespace OurHistory.Views
         void HistoriaYear_Loaded(object sender, RoutedEventArgs e)
         {
             BotonAtras.Click += BotonAtras_Click;
-            CargarJsonInApp();
-        }
 
-        private void CargarJsonInApp()
-        {
-            lstAnios.ItemsSource = EsquemaJson.ListaCompleta;
         }
 
         void BotonAtras_Click(object sender, RoutedEventArgs e)
@@ -62,15 +59,18 @@ namespace OurHistory.Views
             var json = await Windows.Storage.FileIO.ReadTextAsync(file);
             var Esquem = JsonConvert.DeserializeObject<Esquema>(json);
             this.EsquemaJson = Esquem;
-
-
-            //var folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
-            //folder = await folder.GetFolderAsync("CarpetaJson");
-            //var file = await folder.GetFileAsync("esquema.json");
-            //var json = await Windows.Storage.FileIO.ReadTextAsync(file);
-
-            //var Esquem = JsonConvert.DeserializeObject<Esquema>(json);
-            //this.EsquemaJson = Esquem;
+            //lstAnios.ItemsSource = Esquem.ListaCompleta;
+            ListofYearAll = Esquem.listaCompleta;
+            for (int i = 0; i < ListofYearAll.Count;i++)
+            {
+                if(ListofYearAll.ElementAt(i).anio.Equals(yearReceived))
+                {
+                    contYear = ListofYearAll.ElementAt(i);
+                    break;
+                }
+            }
+            lstAnio.ItemsSource = contYear.lstAnio;
+            //lstSucesos.ItemsSource = Esquem.listaCompleta.ElementAt(0).lstAnio.ElementAt(0).Sucesos;
         }
     }
 }

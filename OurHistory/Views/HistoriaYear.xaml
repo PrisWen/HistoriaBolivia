@@ -11,9 +11,21 @@
         <Button Style="{StaticResource BackButtonStyle}" 
                 Name="BotonAtras"  Margin="10,10,0,0" VerticalAlignment="Top"/>
         <StackPanel>
-            <TextBlock Name="year" Text="añoX" FontSize="55" Margin="20,70,0,0"/>
-            <ListBox x:Name="lstAnios"
-                     ItemTemplate="{StaticResource listaAnios}"/>
+            <TextBlock Name="year" Text="añoX" FontSize="55" Margin="60,70,0,0"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="700"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <ListBox x:Name="lstAnio"
+                     ItemTemplate="{StaticResource listaAnio}" Background="Transparent">
+                        <ListBox x:Name="lstSucesos"
+                             ItemTemplate="{StaticResource listaSucesos}"
+                             />
+                    </ListBox>
+                </StackPanel>
+            </Grid>
+            
         </StackPanel>
     </Grid>
 </Page>

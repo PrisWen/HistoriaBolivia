@@ -8,7 +8,7 @@ namespace OurHistory.CarpetaJson
 {
     class Esquema
     {
-        private List<ListAnio> listaCompleta;
+        public List<ListAnio> listaCompleta;
 
         public List<ListAnio> ListaCompleta
         {
