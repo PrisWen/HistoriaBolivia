@@ -31,6 +31,8 @@ namespace OurHistory
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.Button dificil; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button rompecabezas; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private bool _contentLoaded;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
@@ -51,6 +53,7 @@ namespace OurHistory
             facil = (global::Windows.UI.Xaml.Controls.Button)this.FindName("facil");
             medio = (global::Windows.UI.Xaml.Controls.Button)this.FindName("medio");
             dificil = (global::Windows.UI.Xaml.Controls.Button)this.FindName("dificil");
+            rompecabezas = (global::Windows.UI.Xaml.Controls.Button)this.FindName("rompecabezas");
         }
     }
 }
