@@ -798,7 +798,13 @@ namespace OurHistory.Views
                             numeroPreguntaDelCamino++;//el pop helper se muestra y dispara este evento  asi q supongo q debo restar las veces q se muestra
                             txtPorcentaje.Text = " " + (int.Parse(txtPorcentaje.Text) + 10) + " ";
                             if (numeroPreguntaDelCamino < ((numPregPorNivel * 9)) + 3)
+                            {
+                                if (numeroPreguntaDelCamino == ((numPregPorNivel * 9)))
+                                {
+                                    gridGenerales.Visibility = Visibility.Visible;
+                                }
                                 dibujaSiguientePunto();
+                            }
                             else
                             {
                                 numeroPreguntaDelCamino = 999;

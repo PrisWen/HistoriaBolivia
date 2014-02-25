@@ -152,12 +152,8 @@ C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Us
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.g.cs
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.i.cs
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\DetallePregunta.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\DetallePregunta.g.cs
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.i.cs
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Detail.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Detail.g.cs
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.i.cs
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.cs
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.g.i.cs
@@ -167,9 +163,7 @@ C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Ap
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.xaml
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.xaml
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\DetallePregunta.xaml
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Detail.xaml
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.xaml
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.xaml
 C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.exe
@@ -189,3 +183,10 @@ C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDe
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\esquema.json
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\esquema.json
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.xaml

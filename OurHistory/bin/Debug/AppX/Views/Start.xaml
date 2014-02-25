@@ -50,7 +50,7 @@
             <Button x:ConnectionId='1'                       Visibility="Collapsed">PUZZLE</Button>
 
             <Border BorderBrush="Black" BorderThickness="3" Margin="70,250"
-                Width="254" Height="200" 
+                Width="254" Height="200" x:Name="gridGenerales" Visibility="Collapsed"
                 HorizontalAlignment="Left" VerticalAlignment="Top">
 
                 <Grid Height="290">
