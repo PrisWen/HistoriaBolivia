@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe">
       <PackagePath>OurHistory.exe</PackagePath>
-      <Modified>2014-02-25T15:51:39.029</Modified>
+      <Modified>2014-02-25T16:35:59.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.pdb">
       <PackagePath>OurHistory.pdb</PackagePath>
-      <Modified>2014-02-25T15:51:38.979</Modified>
+      <Modified>2014-02-25T16:35:59.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -178,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.586</Modified>
+      <Modified>2014-02-25T16:32:07.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
@@ -186,7 +186,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\UserControls\PreguntaControl.xaml">
       <PackagePath>UserControls\PreguntaControl.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.913</Modified>
+      <Modified>2014-02-25T16:35:54.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Creditos.xaml">
       <PackagePath>Views\Creditos.xaml</PackagePath>
