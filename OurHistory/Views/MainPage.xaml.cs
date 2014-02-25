@@ -38,6 +38,7 @@ namespace OurHistory
                 //this.StackPanelDatos.Visibility = Visibility.Collapsed;
                 this.imgPausa.Visibility = Visibility.Visible;
                 this.grid0.Visibility = Visibility.Collapsed;
+
             }
             else
             {

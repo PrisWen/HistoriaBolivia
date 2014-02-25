@@ -6,26 +6,39 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Picture/fondojuego.jpg"/>
+        </Grid.Background>
         <Button Style="{StaticResource BackButtonStyle}" 
                 Name="BotonAtras"  Margin="10,10,0,0" VerticalAlignment="Top"/>
         <StackPanel>
-            <TextBlock Name="year" Text="añoX" FontSize="55" Margin="60,70,0,0"/>
-            <Grid>
+            <TextBlock Name="year" Text="añoX" FontSize="65" Margin="60,70,0,0" 
+                       FontFamily="Segoe Marker" Foreground="Black"/>
+            <Grid Margin="60,0,0,0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="700"/>
+                    <ColumnDefinition Width="600"/>
+                    <ColumnDefinition Width="600"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel>
-                    <ListBox x:Name="lstAnio"
-                     ItemTemplate="{StaticResource listaAnio}" Background="Transparent">
+                <StackPanel Grid.Column="0" Grid.Row="0">
+                    
+                    <ScrollViewer Height="550" Width="550">
+                        <ListBox x:Name="lstAnio"
+                                ItemTemplate="{StaticResource listaAnio}" Background="Transparent"/>
+                    </ScrollViewer>
+                </StackPanel>
+                <Grid Height="550" Width="550" Grid.Column="1">
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Assets/Picture/fondoPregunta.jpg" Stretch="None"/>
+                    </Grid.Background>
+                    <ScrollViewer Margin="41,57,42,57">
                         <ListBox x:Name="lstSucesos"
                              ItemTemplate="{StaticResource listaSucesos}"
-                             />
-                    </ListBox>
-                </StackPanel>
+                             Background="Transparent" />
+                    </ScrollViewer>
+                </Grid>
             </Grid>
-            
         </StackPanel>
     </Grid>
 </Page>

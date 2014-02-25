@@ -6,20 +6,24 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Resources>
 
+    </Page.Resources>
     <Grid>
+
         <Grid.Background>
-            <ImageBrush ImageSource="/Assets/Picture/background.jpg"/>
+            <ImageBrush ImageSource="/Assets/Picture/fondojuego.jpg"/>
         </Grid.Background>
         <Button Style="{StaticResource BackButtonStyle}" 
                 Name="BotonAtras"  Margin="10,10,0,0" VerticalAlignment="Top"/>
         <StackPanel>
             <TextBlock Text="NUESTRA HISTORIA" HorizontalAlignment="Center" FontSize="65"
-                       Margin="0,50,0,0"/>
-            <TextBlock Text="LA INDEPENDENCIA" HorizontalAlignment="Center" FontSize="45"/>
+                       Foreground="Black" FontFamily="Segoe Marker" Margin="0,50,0,0"/>
+            <TextBlock Text="LA INDEPENDENCIA" HorizontalAlignment="Center" 
+                       Foreground="Black" FontFamily="Segoe Marker" FontSize="45"/>
             <Image x:Name="lineImage" Height="250" Width="250"/>
-            <Slider x:Name="sliderLineTime" Minimum="1800" Maximum="1829" Width="1000"
-                    Value="1807"
+            <Slider x:Name="sliderLineTime" Minimum="1808" Maximum="1825" Width="1000"
+                    Value="1810"
                     Height="50" Foreground="Chocolate"/>
             <StackPanel Orientation="Horizontal">
                 <Grid>
@@ -28,15 +32,19 @@
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="300"/>
-                        <ColumnDefinition Width="760"/>
+                        <ColumnDefinition Width="118"/>
+                        <ColumnDefinition Width="642"/>
                         <ColumnDefinition Width="300"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Name="firstTime" Text="1808" Grid.Row="0" FontSize="45" HorizontalAlignment="Center"/>
-                    <TextBlock Name="usuarioTime" Grid.Column="1" FontSize="45" HorizontalAlignment="Center"/>
-                    <TextBlock Name="lastTime" Text="1825" Grid.Column="2"  FontSize="45" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="firstTime" Text="1805-1808" Grid.Row="0" 
+                               FontFamily="Segoe Marker" Foreground="Black" FontSize="45" HorizontalAlignment="Center" Margin="66,0,11,0" Width="223"/>
+                    <TextBlock x:Name="usuarioTime" Grid.Column="2" 
+                               FontFamily="Segoe Marker" Foreground="Black" Text="1810" FontSize="45" HorizontalAlignment="Center" Margin="168,0,331,0" Width="143"/>
+                    <TextBlock x:Name="lastTime" Text="1825" Grid.Column="3" 
+                                FontFamily="Segoe Marker" Foreground="Black" FontSize="45" HorizontalAlignment="Center" Margin="101,0"/>
                 </Grid>
             </StackPanel>
-            <Button x:Name="gohistory" Content="Ver Historia" HorizontalAlignment="Right" Margin="0,0,128,0"/>
+            <Button x:Name="gohistory" Content="Ver Historia" HorizontalAlignment="Right" FontFamily="Segoe Marker" Foreground="Black" BorderBrush="Black" FontSize="35" Margin="0,0,128,0"/>
         </StackPanel>
 
     </Grid>

@@ -10,21 +10,22 @@
         <Style x:Key="botCreditos" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
             <Setter Property="AutomationProperties.AutomationId" Value="AppBarButton"/>
             <Setter Property="AutomationProperties.Name" Value="Creditos"/>
-            <Setter Property="Content" Value="!"/>
+            <Setter Property="Content" Value="☼"/>
         </Style>
     </Page.Resources>
     <Page.BottomAppBar>
         <AppBar x:Name="AppBar" IsSticky="True" Background="Chocolate">
             <Grid>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button x:Name="Creditos" Style="{StaticResource botCreditos}" />
-                    <Button x:Name="lineTime" Style="{StaticResource botCreditos}" />
+                    <Button x:Name="lineTime" Style="{StaticResource botCreditos}"
+                            Content="►" AutomationProperties.Name="Linea del Tiempo"/>
                 </StackPanel>
             </Grid>
         </AppBar>
     </Page.BottomAppBar>
     <Grid>
-        <Image x:Name="imgPausa" Source="/Assets/Picture/cultura.jpg" Stretch="Fill" Visibility="Collapsed"/>
+        <Image x:Name="imgPausa" Source="/Assets/Picture/pausa.jpg" Stretch="Fill" Visibility="Collapsed"/>
         <Grid x:Name="grid0" Margin="0,0,0,0" Visibility="Visible">
             <Grid.RowDefinitions>
                 <RowDefinition Height="157*"/>
@@ -37,7 +38,6 @@
             <Button Name="facil"  HorizontalAlignment="Left" Height="70" Margin="288,222,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
                 <Button.Background>
                     <ImageBrush ImageSource="/Assets/Picture/facil.jpg">
-
                     </ImageBrush>
                 </Button.Background>
             </Button>
@@ -54,7 +54,6 @@
                 </Button.Background>
             </Button>
             <Image Source="/Assets/Picture/Bolivia.png" Margin="644,138,203,88" Grid.RowSpan="2"/>
-
         </Grid>
     </Grid>
 </Page>

@@ -9,9 +9,16 @@ Assets\Picture\facil.jpg
 Assets\Picture\Fondo.jpg
 Assets\Picture\fondo0.jpg
 Assets\Picture\FondoCreditos.jpg
+Assets\Picture\fondoJuego.jpg
+Assets\Picture\fondoJuego2.jpg
 Assets\Picture\fondoPregunta.jpg
+Assets\Picture\jjj1808.jpg
+Assets\Picture\jjj1809.jpg
+Assets\Picture\jjj1810.jpg
+Assets\Picture\jjj1811.jpg
 Assets\Picture\JUGAR1.png
 Assets\Picture\medio.jpg
+Assets\Picture\pausa.jpg
 Assets\Picture\rojo.jpg
 Assets\Picture\siguiente.png
 Assets\Picture\verde.jpg
@@ -22,8 +29,6 @@ App.xaml
 Common\StandardStyles.xaml
 UserControls\PreguntaControl.xaml
 Views\Creditos.xaml
-Views\Detail.xaml
-Views\DetallePregunta.xaml
 Views\HistoriaYear.xaml
 Views\LineaDelTiempo.xaml
 Views\MainPage.xaml

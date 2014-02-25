@@ -23,19 +23,20 @@
         <Border BorderBrush="White" BorderThickness="2" Margin="5" Padding="5" Grid.Row="0" Grid.RowSpan="2">
             <StackPanel>
                 <MediaElement Name="SoundsRespuesta"/>
-                <TextBlock x:Name="UserPregunta" Margin="38,30,36,30" HorizontalAlignment="Center" TextWrapping="Wrap"
+                <TextBlock x:Name="UserPregunta" FontFamily="Segoe Marker"
+                           Margin="38,30,36,30" HorizontalAlignment="Center" TextWrapping="Wrap"
                     Text="¿Cuál es la capital constitucional de Bolivia?" Foreground="AliceBlue"  FontSize="40" Width="652"/>
-                <ListBox x:Name="lstOpciones" Visibility="Visible" Height="316" SelectionChanged="lstOpciones_SelectionChanged" Margin="32,20,36,20" ItemTemplate="{StaticResource listaPreguntas}">
+                <ListBox x:Name="lstOpciones" Visibility="Visible" Height="303" SelectionChanged="lstOpciones_SelectionChanged" Margin="32,20,51,20" ItemTemplate="{StaticResource listaPreguntas}">
 
-                    <ListBoxItem Margin="30,30" HorizontalAlignment="Center" FontSize="20">Sucre</ListBoxItem>
+                    <ListBoxItem Margin="30,30" HorizontalAlignment="Center" FontSize="20" FontFamily="Segoe Marker">Sucre</ListBoxItem>
                 </ListBox>
                 <ScrollViewer Height="300" Width="650">
-                    <TextBlock x:Name="detalleRespC" FontSize="27" Text="wwwer" Visibility="Collapsed" TextWrapping="Wrap" />
+                    <TextBlock x:Name="detalleRespC" FontSize="27" FontFamily="Segoe Marker" Text="wwwer" Visibility="Collapsed" TextWrapping="Wrap" Width="602" />
                 </ScrollViewer>
             </StackPanel>
         </Border>
         <Image x:Name="btnSiguiente" Source="/Assets/Picture/siguiente.png" Grid.Row="1"
-                           Height="90" Width="150" Visibility="Collapsed" Margin="10"
+                           Height="90" Width="150" Visibility="Collapsed" Margin="709,20,-109,0"
                            Stretch="UniformToFill" Tapped="btnSiguiente_Tapped"/>
         <TextBlock x:Name="txtRespuestaCorrecta" Visibility="Collapsed"/>
         <TextBlock x:Name="txtRespuestaInCorrecta" Visibility="Collapsed"/>

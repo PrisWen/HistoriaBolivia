@@ -99,7 +99,7 @@ namespace OurHistory.Views
 
             LaPaz.Tapped += LaPaz_Tapped;
             BotonAtras.Click += BotonAtras_Click;
-            botob.Click += botob_Click;
+            //botob.Click += botob_Click;
 
             //seleccion de prguntas d json
 
@@ -718,15 +718,7 @@ namespace OurHistory.Views
             return listPreg;
         }
 
-        void DetPreg_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(DetallePregunta));
-        }
-
-        void botob_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(DetallePregunta));
-        }
+       
 
         PopupHelper popHelper = new PopupHelper();
 
@@ -1058,7 +1050,7 @@ namespace OurHistory.Views
         void LaPaz_Tapped(object sender, TappedRoutedEventArgs e)
         {
             //this.Frame.Navigate(typeof(Start));
-            Frame.Navigate(typeof(Detail));
+           // Frame.Navigate(typeof(Detail));
         }
 
         public void cargaRandomPreguntaPorNivel(int n)

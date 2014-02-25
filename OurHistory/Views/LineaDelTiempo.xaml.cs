@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en http://go.microsoft.com/fwlink/?LinkId=234238
@@ -22,7 +23,7 @@ namespace OurHistory.Views
     /// </summary>
     public sealed partial class LineaDelTiempo : Page
     {
-        string anio = "1805";
+        string anio = "1810";
         public LineaDelTiempo()
         {
             this.InitializeComponent();
@@ -31,6 +32,7 @@ namespace OurHistory.Views
 
         void LineaDelTiempo_Loaded(object sender, RoutedEventArgs e)
         {
+            //usuarioTime.Text = (sliderLineTime.Value).ToString();
             sliderLineTime.ValueChanged += sliderLineTime_ValueChanged;
             BotonAtras.Click += BotonAtras_Click;
             gohistory.Click += gohistory_Click;
@@ -48,9 +50,8 @@ namespace OurHistory.Views
         void sliderLineTime_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
             usuarioTime.Text = (sliderLineTime.Value).ToString();
+            lineImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Picture/jjj" + usuarioTime.Text.ToString()+".jpg", UriKind.RelativeOrAbsolute));
             anio = (int.Parse((sliderLineTime.Value).ToString())).ToString();
-
-            //anio = int.Parse(usuarioTime.Text);
         }
         void cargandoDatosdeXAnio()
         {

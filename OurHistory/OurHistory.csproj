@@ -130,9 +130,6 @@
     <Compile Include="Views\Creditos.xaml.cs">
       <DependentUpon>Creditos.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DetallePregunta.xaml.cs">
-      <DependentUpon>DetallePregunta.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\HistoriaYear.xaml.cs">
       <DependentUpon>HistoriaYear.xaml</DependentUpon>
     </Compile>
@@ -143,9 +140,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\Detail.xaml.cs">
-      <DependentUpon>Detail.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Puzzle\SelectImagePage.xaml.cs">
       <DependentUpon>SelectImagePage.xaml</DependentUpon>
     </Compile>
@@ -163,8 +157,15 @@
     <Content Include="Assets\Picture\dificil.jpg" />
     <Content Include="Assets\Picture\facil.jpg" />
     <Content Include="Assets\Picture\fondo0.jpg" />
+    <Content Include="Assets\Picture\fondoJuego.jpg" />
+    <Content Include="Assets\Picture\fondoJuego2.jpg" />
     <Content Include="Assets\Picture\fondoPregunta.jpg" />
+    <Content Include="Assets\Picture\jjj1810.jpg" />
+    <Content Include="Assets\Picture\jjj1811.jpg" />
+    <Content Include="Assets\Picture\jjj1808.jpg" />
+    <Content Include="Assets\Picture\jjj1809.jpg" />
     <Content Include="Assets\Picture\medio.jpg" />
+    <Content Include="Assets\Picture\pausa.jpg" />
     <Content Include="Assets\Picture\rojo.jpg" />
     <Content Include="Assets\Picture\siguiente.png" />
     <Content Include="Assets\Picture\verde.jpg" />
@@ -209,10 +210,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\DetallePregunta.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\HistoriaYear.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -224,10 +221,6 @@
     <Page Include="Views\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\Detail.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Puzzle\SelectImagePage.xaml">
       <SubType>Designer</SubType>

@@ -28,6 +28,7 @@ namespace OurHistory.Views
         Esquema EsquemaJson;
         List<ListAnio> ListofYearAll = new List<ListAnio>();
         ListAnio contYear = new ListAnio();
+        
         public HistoriaYear()
         {
             this.InitializeComponent();
@@ -37,7 +38,13 @@ namespace OurHistory.Views
         void HistoriaYear_Loaded(object sender, RoutedEventArgs e)
         {
             BotonAtras.Click += BotonAtras_Click;
+            lstAnio.SelectionChanged += lstAnio_SelectionChanged;
+        }
 
+        void lstAnio_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ListSucesos listDeSucesosObtenido = lstAnio.SelectedItem as ListSucesos;
+            lstSucesos.ItemsSource = listDeSucesosObtenido.Sucesos;
         }
 
         void BotonAtras_Click(object sender, RoutedEventArgs e)

@@ -26,10 +26,12 @@
         <Image x:Name="imgPausa" Source="/Assets/Picture/cultura.jpg" Stretch="Fill" Visibility="Collapsed"/>
         <Grid x:Name="grid0" Margin="0,0,0,0" Visibility="Visible">
             <Grid.Background>
-                <ImageBrush ImageSource="/Assets/Picture/Background.JPG"/>
+                <ImageBrush ImageSource="/Assets/Picture/fondojuego.JPG"/>
             </Grid.Background>
             
-            <TextBlock x:Name="txtIncorrecto" Text="txt" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70" Width="100" Height="50"/>
+            <TextBlock x:Name="txtIncorrecto" 
+                       Visibility="Collapsed"
+                       Text="txt" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70,68,0,0" Width="100" Height="50"/>
             <Image Name="MapaBolivia" Source="/Assets/Picture/Bolivia.png"/>
 
             <Ellipse  Name="LaPaz" Fill="Red"
@@ -56,7 +58,7 @@
                         <TextBlock Foreground="Black" FontSize="26">Preguntas Generales</TextBlock>
                     </Border>
 
-                    <Image Source="/Assets/Picture/bandera.jpg" Opacity="0.3" Height="150" Width="250" VerticalAlignment="Top" Margin="0,50" Stretch="Fill"/>
+                    <Image Source="/Assets/Picture/fondopregunta.jpg" Opacity="0.3" Height="150" Width="250" VerticalAlignment="Top" Margin="0,50" Stretch="Fill"/>
 
                     <!--<Ellipse Fill="Red" Width="26" Height="24"  Margin="50,60,0,0" />
                 <Ellipse Fill="Yellow" Width="26" Height="24"  Margin="100,110,0,0" />

@@ -120,33 +120,25 @@ namespace OurHistory.OurHistory_XamlTypeInfo
 
         private object Activate_3_Creditos() { return new global::OurHistory.Views.Creditos(); }
 
-        private object Activate_4_DetallePregunta() { return new global::OurHistory.Views.DetallePregunta(); }
+        private object Activate_4_HistoriaYear() { return new global::OurHistory.Views.HistoriaYear(); }
 
-        private object Activate_5_HistoriaYear() { return new global::OurHistory.Views.HistoriaYear(); }
+        private object Activate_5_LineaDelTiempo() { return new global::OurHistory.Views.LineaDelTiempo(); }
 
-        private object Activate_6_LineaDelTiempo() { return new global::OurHistory.Views.LineaDelTiempo(); }
+        private object Activate_6_MainPage() { return new global::OurHistory.MainPage(); }
 
-        private object Activate_7_MainPage() { return new global::OurHistory.MainPage(); }
+        private object Activate_7_LayoutAwarePage() { return new global::OurHistory.Common.LayoutAwarePage(); }
 
-        private object Activate_8_DefaultViewModel() { return new global::OurHistory.ViewModels.DefaultViewModel(); }
+        private object Activate_8_SelectImageViewModel() { return new global::OurHistory.ViewModels.Puzzle.SelectImageViewModel(); }
 
-        private object Activate_10_Historia() { return new global::OurHistory.Model.Historia(); }
+        private object Activate_10_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::OurHistory.Model.Puzzle.Picture>(); }
 
-        private object Activate_11_Detail() { return new global::OurHistory.Views.Detail(); }
+        private object Activate_11_Collection() { return new global::System.Collections.ObjectModel.Collection<global::OurHistory.Model.Puzzle.Picture>(); }
 
-        private object Activate_12_LayoutAwarePage() { return new global::OurHistory.Common.LayoutAwarePage(); }
+        private object Activate_12_Picture() { return new global::OurHistory.Model.Puzzle.Picture(); }
 
-        private object Activate_13_SelectImageViewModel() { return new global::OurHistory.ViewModels.Puzzle.SelectImageViewModel(); }
+        private object Activate_13_SelectImagePage() { return new global::OurHistory.Views.Puzzle.SelectImagePage(); }
 
-        private object Activate_14_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::OurHistory.Model.Puzzle.Picture>(); }
-
-        private object Activate_15_Collection() { return new global::System.Collections.ObjectModel.Collection<global::OurHistory.Model.Puzzle.Picture>(); }
-
-        private object Activate_16_Picture() { return new global::OurHistory.Model.Puzzle.Picture(); }
-
-        private object Activate_17_SelectImagePage() { return new global::OurHistory.Views.Puzzle.SelectImagePage(); }
-
-        private object Activate_18_Start() { return new global::OurHistory.Views.Start(); }
+        private object Activate_14_Start() { return new global::OurHistory.Views.Start(); }
 
         private void VectorAdd_1_List(object instance, object item)
         {
@@ -155,14 +147,14 @@ namespace OurHistory.OurHistory_XamlTypeInfo
             collection.Add(newItem);
         }
 
-        private void VectorAdd_14_ObservableCollection(object instance, object item)
+        private void VectorAdd_10_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::OurHistory.Model.Puzzle.Picture>)instance;
             var newItem = (global::OurHistory.Model.Puzzle.Picture)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_15_Collection(object instance, object item)
+        private void VectorAdd_11_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::OurHistory.Model.Puzzle.Picture>)instance;
             var newItem = (global::OurHistory.Model.Puzzle.Picture)item;
@@ -245,34 +237,36 @@ namespace OurHistory.OurHistory_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case "OurHistory.Views.DetallePregunta":
-                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Views.DetallePregunta), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_DetallePregunta;
-                xamlType = userType;
-                break;
-
             case "OurHistory.Views.HistoriaYear":
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Views.HistoriaYear), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_HistoriaYear;
+                userType.Activator = Activate_4_HistoriaYear;
                 xamlType = userType;
                 break;
 
             case "OurHistory.Views.LineaDelTiempo":
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Views.LineaDelTiempo), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_LineaDelTiempo;
+                userType.Activator = Activate_5_LineaDelTiempo;
                 xamlType = userType;
                 break;
 
             case "OurHistory.MainPage":
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.MainPage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_MainPage;
+                userType.Activator = Activate_6_MainPage;
                 xamlType = userType;
                 break;
 
-            case "OurHistory.ViewModels.DefaultViewModel":
-                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.ViewModels.DefaultViewModel), GetXamlTypeByName("OurHistory.Common.BindableBase"));
-                userType.Activator = Activate_8_DefaultViewModel;
-                userType.AddMemberName("History");
+            case "OurHistory.Common.LayoutAwarePage":
+                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_LayoutAwarePage;
+                xamlType = userType;
+                break;
+
+            case "OurHistory.ViewModels.Puzzle.SelectImageViewModel":
+                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.ViewModels.Puzzle.SelectImageViewModel), GetXamlTypeByName("OurHistory.Common.BindableBase"));
+                userType.Activator = Activate_8_SelectImageViewModel;
+                userType.AddMemberName("Images");
+                AddToMapOfTypeToStandardName(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::OurHistory.Model.Puzzle.Picture>),
+                                                   "System.Collections.ObjectModel.ObservableCollection<OurHistory.Model.Puzzle.Picture>");
                 xamlType = userType;
                 break;
 
@@ -281,39 +275,12 @@ namespace OurHistory.OurHistory_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case "OurHistory.Model.Historia":
-                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Model.Historia), GetXamlTypeByName("OurHistory.Common.BindableBase"));
-                userType.Activator = Activate_10_Historia;
-                xamlType = userType;
-                break;
-
-            case "OurHistory.Views.Detail":
-                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Views.Detail), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_Detail;
-                xamlType = userType;
-                break;
-
-            case "OurHistory.Common.LayoutAwarePage":
-                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_LayoutAwarePage;
-                xamlType = userType;
-                break;
-
-            case "OurHistory.ViewModels.Puzzle.SelectImageViewModel":
-                userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.ViewModels.Puzzle.SelectImageViewModel), GetXamlTypeByName("OurHistory.Common.BindableBase"));
-                userType.Activator = Activate_13_SelectImageViewModel;
-                userType.AddMemberName("Images");
-                AddToMapOfTypeToStandardName(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::OurHistory.Model.Puzzle.Picture>),
-                                                   "System.Collections.ObjectModel.ObservableCollection<OurHistory.Model.Puzzle.Picture>");
-                xamlType = userType;
-                break;
-
             case "System.Collections.ObjectModel.ObservableCollection<OurHistory.Model.Puzzle.Picture>":
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.Collections.ObjectModel.ObservableCollection<global::OurHistory.Model.Puzzle.Picture>), GetXamlTypeByName("System.Collections.ObjectModel.Collection<OurHistory.Model.Puzzle.Picture>"));
                 AddToMapOfTypeToStandardName(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::OurHistory.Model.Puzzle.Picture>),
                                                    "System.Collections.ObjectModel.ObservableCollection<OurHistory.Model.Puzzle.Picture>");
-                userType.Activator = Activate_14_ObservableCollection;
-                userType.CollectionAdd = VectorAdd_14_ObservableCollection;
+                userType.Activator = Activate_10_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_10_ObservableCollection;
                 xamlType = userType;
                 break;
 
@@ -321,14 +288,14 @@ namespace OurHistory.OurHistory_XamlTypeInfo
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.Collections.ObjectModel.Collection<global::OurHistory.Model.Puzzle.Picture>), GetXamlTypeByName("Object"));
                 AddToMapOfTypeToStandardName(typeof(global::System.Collections.ObjectModel.Collection<global::OurHistory.Model.Puzzle.Picture>),
                                                    "System.Collections.ObjectModel.Collection<OurHistory.Model.Puzzle.Picture>");
-                userType.Activator = Activate_15_Collection;
-                userType.CollectionAdd = VectorAdd_15_Collection;
+                userType.Activator = Activate_11_Collection;
+                userType.CollectionAdd = VectorAdd_11_Collection;
                 xamlType = userType;
                 break;
 
             case "OurHistory.Model.Puzzle.Picture":
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Model.Puzzle.Picture), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_16_Picture;
+                userType.Activator = Activate_12_Picture;
                 userType.AddMemberName("Name");
                 AddToMapOfTypeToStandardName(typeof(global::System.String),
                                                    "String");
@@ -340,13 +307,13 @@ namespace OurHistory.OurHistory_XamlTypeInfo
 
             case "OurHistory.Views.Puzzle.SelectImagePage":
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Views.Puzzle.SelectImagePage), GetXamlTypeByName("OurHistory.Common.LayoutAwarePage"));
-                userType.Activator = Activate_17_SelectImagePage;
+                userType.Activator = Activate_13_SelectImagePage;
                 xamlType = userType;
                 break;
 
             case "OurHistory.Views.Start":
                 userType = new global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::OurHistory.Views.Start), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_Start;
+                userType.Activator = Activate_14_Start;
                 userType.AddMemberName("VarIncorrecto");
                 AddToMapOfTypeToStandardName(typeof(global::System.String),
                                                    "String");
@@ -428,52 +395,42 @@ namespace OurHistory.OurHistory_XamlTypeInfo
             var that = (global::OurHistory.UserControls.PreguntaControl)instance;
             that.RespuestaIncorrecta = (global::System.String)Value;
         }
-        private object get_7_DefaultViewModel_History(object instance)
-        {
-            var that = (global::OurHistory.ViewModels.DefaultViewModel)instance;
-            return that.History;
-        }
-        private void set_7_DefaultViewModel_History(object instance, object Value)
-        {
-            var that = (global::OurHistory.ViewModels.DefaultViewModel)instance;
-            that.History = (global::OurHistory.Model.Historia)Value;
-        }
-        private object get_8_SelectImageViewModel_Images(object instance)
+        private object get_7_SelectImageViewModel_Images(object instance)
         {
             var that = (global::OurHistory.ViewModels.Puzzle.SelectImageViewModel)instance;
             return that.Images;
         }
-        private void set_8_SelectImageViewModel_Images(object instance, object Value)
+        private void set_7_SelectImageViewModel_Images(object instance, object Value)
         {
             var that = (global::OurHistory.ViewModels.Puzzle.SelectImageViewModel)instance;
             that.Images = (global::System.Collections.ObjectModel.ObservableCollection<global::OurHistory.Model.Puzzle.Picture>)Value;
         }
-        private object get_9_Picture_Name(object instance)
+        private object get_8_Picture_Name(object instance)
         {
             var that = (global::OurHistory.Model.Puzzle.Picture)instance;
             return that.Name;
         }
-        private void set_9_Picture_Name(object instance, object Value)
+        private void set_8_Picture_Name(object instance, object Value)
         {
             var that = (global::OurHistory.Model.Puzzle.Picture)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_10_Picture_Url(object instance)
+        private object get_9_Picture_Url(object instance)
         {
             var that = (global::OurHistory.Model.Puzzle.Picture)instance;
             return that.Url;
         }
-        private void set_10_Picture_Url(object instance, object Value)
+        private void set_9_Picture_Url(object instance, object Value)
         {
             var that = (global::OurHistory.Model.Puzzle.Picture)instance;
             that.Url = (global::System.String)Value;
         }
-        private object get_11_Start_VarIncorrecto(object instance)
+        private object get_10_Start_VarIncorrecto(object instance)
         {
             var that = (global::OurHistory.Views.Start)instance;
             return that.VarIncorrecto;
         }
-        private void set_11_Start_VarIncorrecto(object instance, object Value)
+        private void set_10_Start_VarIncorrecto(object instance, object Value)
         {
             var that = (global::OurHistory.Views.Start)instance;
             that.VarIncorrecto = (global::System.String)Value;
@@ -528,35 +485,29 @@ namespace OurHistory.OurHistory_XamlTypeInfo
                 xamlMember.Getter = get_6_PreguntaControl_RespuestaIncorrecta;
                 xamlMember.Setter = set_6_PreguntaControl_RespuestaIncorrecta;
                 break;
-            case "OurHistory.ViewModels.DefaultViewModel.History":
-                userType = (global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OurHistory.ViewModels.DefaultViewModel");
-                xamlMember = new global::OurHistory.OurHistory_XamlTypeInfo.XamlMember(this, "History", "OurHistory.Model.Historia");
-                xamlMember.Getter = get_7_DefaultViewModel_History;
-                xamlMember.Setter = set_7_DefaultViewModel_History;
-                break;
             case "OurHistory.ViewModels.Puzzle.SelectImageViewModel.Images":
                 userType = (global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OurHistory.ViewModels.Puzzle.SelectImageViewModel");
                 xamlMember = new global::OurHistory.OurHistory_XamlTypeInfo.XamlMember(this, "Images", "System.Collections.ObjectModel.ObservableCollection<OurHistory.Model.Puzzle.Picture>");
-                xamlMember.Getter = get_8_SelectImageViewModel_Images;
-                xamlMember.Setter = set_8_SelectImageViewModel_Images;
+                xamlMember.Getter = get_7_SelectImageViewModel_Images;
+                xamlMember.Setter = set_7_SelectImageViewModel_Images;
                 break;
             case "OurHistory.Model.Puzzle.Picture.Name":
                 userType = (global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OurHistory.Model.Puzzle.Picture");
                 xamlMember = new global::OurHistory.OurHistory_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_9_Picture_Name;
-                xamlMember.Setter = set_9_Picture_Name;
+                xamlMember.Getter = get_8_Picture_Name;
+                xamlMember.Setter = set_8_Picture_Name;
                 break;
             case "OurHistory.Model.Puzzle.Picture.Url":
                 userType = (global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OurHistory.Model.Puzzle.Picture");
                 xamlMember = new global::OurHistory.OurHistory_XamlTypeInfo.XamlMember(this, "Url", "String");
-                xamlMember.Getter = get_10_Picture_Url;
-                xamlMember.Setter = set_10_Picture_Url;
+                xamlMember.Getter = get_9_Picture_Url;
+                xamlMember.Setter = set_9_Picture_Url;
                 break;
             case "OurHistory.Views.Start.VarIncorrecto":
                 userType = (global::OurHistory.OurHistory_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OurHistory.Views.Start");
                 xamlMember = new global::OurHistory.OurHistory_XamlTypeInfo.XamlMember(this, "VarIncorrecto", "String");
-                xamlMember.Getter = get_11_Start_VarIncorrecto;
-                xamlMember.Setter = set_11_Start_VarIncorrecto;
+                xamlMember.Getter = get_10_Start_VarIncorrecto;
+                xamlMember.Setter = set_10_Start_VarIncorrecto;
                 break;
             }
             return xamlMember;

@@ -40,7 +40,8 @@ namespace OurHistory.Views
         }
         void BotonAtras_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
+            this.Frame.GoBack();
+            //this.Frame.Navigate(typeof(MainPage));
         }
     }
 }

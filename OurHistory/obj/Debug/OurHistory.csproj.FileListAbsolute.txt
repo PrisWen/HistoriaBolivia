@@ -106,12 +106,8 @@ C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.g.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.i.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.cs
-C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\DetallePregunta.g.i.cs
-C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\DetallePregunta.g.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.i.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.cs
-C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Detail.g.i.cs
-C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Detail.g.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.i.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.cs
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.g.i.cs
@@ -120,8 +116,6 @@ C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\XamlTypeInfo.
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\App.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.xaml
-C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\DetallePregunta.xaml
-C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Detail.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.xaml

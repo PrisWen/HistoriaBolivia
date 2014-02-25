@@ -1,28 +1,28 @@
 ﻿{
 	"listaCompleta": [
 		{
-			"anio" : 1805,
+			"anio" : 1808,
 			"lstAnio" : [
 				{
 					"pertenece": "SUCESOS EN ESPAÑA",
 					"Sucesos": [
-						"Napoleón invade España",
-						"Carlos IV abdica en favor de Fernando VII",
-						"Junta de Cádiz",
+						"► Napoleón invade España",
+						"► Carlos IV abdica en favor de Fernando VII",
+						"► Junta de Cádiz",
 					],
 				},
 				{
 					"pertenece": "SUCESOS EN LAS CIUDADES",
 					"Sucesos": [
-						"Goyeneche a Chuquisaca como emisario de la junta de Cádiz",
+						"► Goyeneche a Chuquisaca como emisario de la junta de Cádiz",
 					],
 				},
 				{
 					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
 					"Sucesos": [
-						"Insurrección en Cuzco",
-						"Virreys Liniers",
-						"Invasion Inglesa a Buenos Aires",
+						"► Insurrección en Cuzco",
+						"► Virreys Liniers",
+						"► Invasion Inglesa a Buenos Aires",
 					],
 				},
 			],
@@ -33,14 +33,14 @@
 				{
 					"pertenece": "SUCESOS EN LAS CIUDADES",
 					"Sucesos": [
-						"Levantamiento en Chuquisaca",
-						"Levantamiento en La Paz",
+						"► Levantamiento en Chuquisaca",
+						"► Levantamiento en La Paz",
 					],
 				},
 				{
 					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
 					"Sucesos": [
-						"Virrey Cisneros sustituye a Liniers",
+						"► Virrey Cisneros sustituye a Liniers",
 					],
 				},
 			],
@@ -51,36 +51,36 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"Goyeneche vence a Castelli(Guaqui)",
+						"► Goyeneche vence a Castelli(Guaqui)",
 					],
 				},
 				{
 					"pertenece": "SUCESOS EN LAS CIUDADES",
 					"Sucesos": [
-						"Ejecucion de los revolucionarios de 1809",
+						"► Ejecucion de los revolucionarios de 1809",
 					],
 				},
 				{
 					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDIGENAS",
 					"Sucesos": [
-						"Los Padilla",
+						"► Los Padilla",
 					],
 				},
 				{
 					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
 					"Sucesos": [
-						"Primer ejército Auxiliar",
-						"Victoria de Suipacha",
-						"En Potosí Castelli ejecuta a Paula Sanz",
-						"Ejército Auxiliar se lleva la plata de la moneda",
+						"► Primer ejército Auxiliar",
+						"► Victoria de Suipacha",
+						"► En Potosí Castelli ejecuta a Paula Sanz",
+						"► Ejército Auxiliar se lleva la plata de la moneda",
 					],
 				},
 				{
 					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
 					"Sucesos": [
-						"Junta de Buenos Aires",
-						"Reincorporación de Charcas al Virreinato del Perú",
-						"El Virrey Abascal",
+						"► Junta de Buenos Aires",
+						"► Reincorporación de Charcas al Virreinato del Perú",
+						"► El Virrey Abascal",
 					],
 				},
 			],
@@ -91,36 +91,210 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"Goyeneche vence a Castelli(Guaqui)",
-					],
-				},
-				{
-					"pertenece": "SUCESOS EN LAS CIUDADES",
-					"Sucesos": [
-						"Ejecucion de los revolucionarios de 1809",
+						"► Pumacahua entra en La Paz con los realistas",
 					],
 				},
 				{
 					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDIGENAS",
 					"Sucesos": [
-						"Los Padilla",
+						"► Cáceres cerca de La Paz liderizando a los indígenas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1812,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Goyeneche entra a Cochabamba",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LAS CIUDADES",
+					"Sucesos": [
+						"► Heroínas de la Coronilla",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1813,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pezuela jefe del ejército realista vence a Belgrano en Vilcapujio y Ayohuma",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LAS CIUDADES",
+					"Sucesos": [
+						"► Batalla de la Florida. Arenales ocupa Santa Cruz",
+					],
+				},
+				{
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDIGENAS",
+					"Sucesos": [
+						"► Warnes",
 					],
 				},
 				{
 					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
 					"Sucesos": [
-						"Primer ejército Auxiliar",
-						"Victoria de Suipacha",
-						"En Potosí Castelli ejecuta a Paula Sanz",
-						"Ejército Auxiliar se lleva la plata de la moneda",
+						"► Segundo ejercito auxiliar Belgrano intenta volar Moneda",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1814,
+			"lstAnio" : [
+				{
+					"pertenece": "SUCESOS EN ESPAÑA",
+					"Sucesos": [
+						"► Fernando VII rey absoluto anula la constitución",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LAS CIUDADES",
+					"Sucesos": [
+						"► Muñecas y Pinelo entran a La Paz. Muerte de Valdeho, José Santa Cruz y Jorge Ballivian",
+					],
+				},
+				{
+					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
+					"Sucesos": [
+						"► Lanza en Ayopaya",
+						"► Lira jefe de la guerrilla",
 					],
 				},
 				{
 					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
 					"Sucesos": [
-						"Junta de Buenos Aires",
-						"Reincorporación de Charcas al Virreinato del Perú",
-						"El Virrey Abascal",
+						"► Insurrección en Cusco de los Angulo y Pumacahua contra el rey",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1815,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1816,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1817,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1818,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1819,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1820,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1821,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1822,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1823,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1824,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
+					],
+				},
+			],
+		},
+		{
+			"anio" : 1825,
+			"lstAnio" : [
+				{
+					"pertenece": "EJERCITOS REALISTAS",
+					"Sucesos": [
+						"► Pumacahua entra en La Paz con los realistas",
 					],
 				},
 			],
