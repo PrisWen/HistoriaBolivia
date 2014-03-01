@@ -23,12 +23,6 @@
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\FondoCreditos.jpg">
       <PackagePath>Assets\Picture\FondoCreditos.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\amarillo.jpg">
-      <PackagePath>Assets\Picture\amarillo.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\bandera.jpg">
-      <PackagePath>Assets\Picture\bandera.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\dificil.jpg">
       <PackagePath>Assets\Picture\dificil.jpg</PackagePath>
     </AppxPackagedFile>

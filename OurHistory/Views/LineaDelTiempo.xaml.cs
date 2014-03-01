@@ -68,12 +68,8 @@ namespace OurHistory.Views
         void sliderLineTime_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
             usuarioTime.Text = (sliderLineTime.Value).ToString();
-            lineImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Picture/jjj" + usuarioTime.Text.ToString()+".jpg", UriKind.RelativeOrAbsolute));
+            //lineImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Picture/jjj" + usuarioTime.Text.ToString()+".jpg", UriKind.RelativeOrAbsolute));
             anio = (int.Parse((sliderLineTime.Value).ToString())).ToString();
-        }
-        void cargandoDatosdeXAnio()
-        {
-
         }
     }
 }

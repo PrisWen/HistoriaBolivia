@@ -152,8 +152,6 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="Assets\Picture\FondoCreditos.jpg" />
-    <Content Include="Assets\Picture\amarillo.jpg" />
-    <Content Include="Assets\Picture\bandera.jpg" />
     <Content Include="Assets\Picture\dificil.jpg" />
     <Content Include="Assets\Picture\facil.jpg" />
     <Content Include="Assets\Picture\fondo0.jpg" />

@@ -21,8 +21,8 @@
                                  Duration="00:00:22"
                                  Storyboard.TargetName="translate1"
                                  Storyboard.TargetProperty="TranslateY"/>
-                <DoubleAnimation From="1670" To="-1000"
-                                 Duration="00:00:30"
+                <DoubleAnimation From="1670" To="0"
+                                 Duration="00:00:20"
                                  Storyboard.TargetName="translate2"
                                  Storyboard.TargetProperty="TranslateY"/>
             </Storyboard>

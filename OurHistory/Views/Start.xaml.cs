@@ -87,6 +87,7 @@ namespace OurHistory.Views
             {
                 this.grid0.Visibility = Visibility.Visible;
                 this.imgPausa.Visibility = Visibility.Collapsed;
+                this.AppBar.Visibility = Visibility.Visible;
             }
             
         }

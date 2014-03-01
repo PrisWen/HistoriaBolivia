@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-01T05:49:06.910</Modified>
+      <Modified>2014-03-01T06:16:37.374</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe">
       <PackagePath>OurHistory.exe</PackagePath>
-      <Modified>2014-03-01T06:12:39.490</Modified>
+      <Modified>2014-03-01T06:30:01.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -32,14 +32,6 @@
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\FondoCreditos.jpg">
       <PackagePath>Assets\Picture\FondoCreditos.jpg</PackagePath>
       <Modified>2014-02-26T14:20:21.578</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\amarillo.jpg">
-      <PackagePath>Assets\Picture\amarillo.jpg</PackagePath>
-      <Modified>2014-02-26T14:20:21.586</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\bandera.jpg">
-      <PackagePath>Assets\Picture\bandera.jpg</PackagePath>
-      <Modified>2014-02-26T14:20:21.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\dificil.jpg">
       <PackagePath>Assets\Picture\dificil.jpg</PackagePath>
@@ -183,7 +175,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Creditos.xaml">
       <PackagePath>Views\Creditos.xaml</PackagePath>
-      <Modified>2014-03-01T05:46:00.326</Modified>
+      <Modified>2014-03-01T06:27:42.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\HistoriaYear.xaml">
       <PackagePath>Views\HistoriaYear.xaml</PackagePath>
@@ -203,11 +195,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Start.xaml">
       <PackagePath>Views\Start.xaml</PackagePath>
-      <Modified>2014-03-01T06:12:37.239</Modified>
+      <Modified>2014-03-01T06:29:59.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-03-01T05:49:06.698</Modified>
+      <Modified>2014-03-01T06:16:37.308</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
