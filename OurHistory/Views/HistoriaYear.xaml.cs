@@ -39,12 +39,32 @@ namespace OurHistory.Views
         {
             BotonAtras.Click += BotonAtras_Click;
             lstAnio.SelectionChanged += lstAnio_SelectionChanged;
+            Window.Current.SizeChanged += Current_SizeChanged;
+        }
+
+        void Current_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
+        {
+            if (e.Size.Width <= 1000)
+            {
+                this.imgPausa.Visibility = Visibility.Visible;
+                this.stack0.Visibility = Visibility.Collapsed;
+                BotonAtras.Visibility = Visibility.Visible;
+
+
+            }
+            else
+            {
+                this.stack0.Visibility = Visibility.Visible;
+                this.imgPausa.Visibility = Visibility.Collapsed;
+                BotonAtras.Visibility = Visibility.Visible;
+            }
         }
 
         void lstAnio_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ListSucesos listDeSucesosObtenido = lstAnio.SelectedItem as ListSucesos;
             lstSucesos.ItemsSource = listDeSucesosObtenido.Sucesos;
+            
         }
 
         void BotonAtras_Click(object sender, RoutedEventArgs e)
@@ -78,6 +98,11 @@ namespace OurHistory.Views
             }
             lstAnio.ItemsSource = contYear.lstAnio;
             //lstSucesos.ItemsSource = Esquem.listaCompleta.ElementAt(0).lstAnio.ElementAt(0).Sucesos;
+        }
+
+        private void lstSucesos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

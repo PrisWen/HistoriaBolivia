@@ -67,7 +67,7 @@ namespace OurHistory.Views
         {
             this.InitializeComponent();
             Loaded += Start_Loaded;
-            Window.Current.SizeChanged += Current_SizeChanged;
+            
         }
 
         void Current_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
@@ -79,6 +79,7 @@ namespace OurHistory.Views
                 //this.StackPanelDatos.Visibility = Visibility.Collapsed;
                 this.imgPausa.Visibility = Visibility.Visible;
                 this.grid0.Visibility = Visibility.Collapsed;
+                this.AppBar.Visibility = Visibility.Collapsed;
                 
 
             }
@@ -125,6 +126,8 @@ namespace OurHistory.Views
             //
             //Pd0.Visibility = Visibility.Collapsed;
             Creditos.Click += Creditos_Click;
+
+            Window.Current.SizeChanged += Current_SizeChanged;
         }
 
         void Creditos_Click(object sender, RoutedEventArgs e)
@@ -925,7 +928,7 @@ namespace OurHistory.Views
                     preg.RespuestasO = new List<string> {"Llegar a la casa de la moneda",
 				                                        "Formar una asamblea",
 				                                        "Subir al cerro para enarbolar en él la bandera de la libertad" };
-                    preg.RespuestaC = "Verdadero";
+                    preg.RespuestaC = "Subir al cerro para enarbolar en él la bandera de la libertad";
                     preg.DetalleRespuesta = "El libertador se dirigió a La Paz y de allí a Potosí donde cumplió su promesa de subir al cerro para enarbolar en el la bandera de la libertad. Así recordaba la promesa hecha en el monte Aventino de Roma de libertar América.";
                     preg.Puntaje = 100;
                     codigos.Add(preg);
@@ -1051,13 +1054,13 @@ namespace OurHistory.Views
             var eli = (Ellipse)sender;
             if (eli.ActualWidth == 22)
             {
-                int ii = 0;
+               // int ii = 0;
             }
             else
             {
                 if (numeroPreguntaDelCamino == 999)
                 { //mensaje();
-                    int y = 0;
+                   // int y = 0;
                 }
                 else
                 {
@@ -1183,7 +1186,7 @@ namespace OurHistory.Views
         }
         void eli_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            var re = 2;
+            //var re = 2;
         }
         private async void mensaje(string men)
         {

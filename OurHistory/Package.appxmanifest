@@ -1,39 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-
-  <Identity Name="4fbd7c19-5587-4a8c-b753-2996f444a2ff"
-            Publisher="CN=Priscila Wendy"
-            Version="1.0.0.0" />
-
+  <Identity Name="4fbd7c19-5587-4a8c-b753-2996f444a2ff" Publisher="CN=Priscila Wendy" Version="1.0.0.0" />
   <Properties>
     <DisplayName>OurHistory</DisplayName>
     <PublisherDisplayName>Priscila Wendy</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="OurHistory.App">
-        <VisualElements
-            DisplayName="OurHistory"
-            Logo="Assets\Logo.png"
-            SmallLogo="Assets\SmallLogo.png"
-            Description="OurHistory"
-            ForegroundText="light"
-            BackgroundColor="#464646">
-            <DefaultTile ShowName="allLogos" />
-            <SplashScreen Image="Assets\SplashScreen.png" />
-        </VisualElements>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="OurHistory.App">
+      <VisualElements DisplayName="Nuestra Historia - La Independencia" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="OurHistory" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="logoOnly" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
     </Application>
   </Applications>
   <Capabilities>

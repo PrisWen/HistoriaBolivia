@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/Picture/fondojuego.jpg"/>
@@ -27,30 +27,33 @@
                                  Storyboard.TargetProperty="TranslateY"/>
             </Storyboard>
         </Grid.Resources>
-        <Image Source="/Assets/Picture/Bolivia.png" Margin="725,117,59,121"/>
-        <Button Style="{StaticResource BackButtonStyle}" 
+        <Image x:Name="imgPausa" Source="/Assets/Picture/pausa.jpg" Stretch="Fill" Visibility="Collapsed"/>
+        <Grid x:Name="grid0">
+            <Image Source="/Assets/Picture/Bolivia.png" Margin="659,117,59,61"/>
+            <Button Style="{StaticResource BackButtonStyle}" 
                 Name="BotonAtras"  Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <StackPanel Width="650" Height="2000" HorizontalAlignment="Left" Margin="70,0,0,0">
-            <StackPanel.RenderTransform>
-                <CompositeTransform x:Name="translate" TranslateY="800"/>
-            </StackPanel.RenderTransform>
-            <TextBlock x:Name="txtTitulo" Text="NUESTRA HISTORIA" FontSize="65" FontFamily="Segoe Marker" 
+            <StackPanel Width="650" Height="2000" HorizontalAlignment="Left" Margin="70,0,0,0">
+                <StackPanel.RenderTransform>
+                    <CompositeTransform x:Name="translate" TranslateY="800"/>
+                </StackPanel.RenderTransform>
+                <TextBlock x:Name="txtTitulo" Text="NUESTRA HISTORIA" FontSize="65" FontFamily="Segoe Marker" 
                        Foreground="Black" HorizontalAlignment="Center"/>
-            <TextBlock x:Name="txtTitulo2" 
+                <TextBlock x:Name="txtTitulo2" 
                       Foreground="Black" Text="LA INDEPENDENCIA" FontSize="55" FontFamily="Segoe Marker" HorizontalAlignment="Center"/>
-        </StackPanel>
-        <TextBlock Margin="70" Width="650" 
+            </StackPanel>
+            <TextBlock Margin="70" Width="650" 
                    Foreground="Black" Name="txtCredits2" Text="creditos" FontSize="45" FontFamily="Segoe Marker" HorizontalAlignment="Left">
-            <TextBlock.RenderTransform>
-                <CompositeTransform x:Name="translate1" TranslateY="1000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock Margin="70" Width="650" Name="txtFuentes" 
+                <TextBlock.RenderTransform>
+                    <CompositeTransform x:Name="translate1" TranslateY="1000"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Margin="70" Width="650" Name="txtFuentes" 
                    Foreground="Black" Text="fuente" FontSize="45" FontFamily="Segoe Marker" HorizontalAlignment="Left">
-            <TextBlock.RenderTransform>
-                <CompositeTransform x:Name="translate2" TranslateY="1000"/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
+                <TextBlock.RenderTransform>
+                    <CompositeTransform x:Name="translate2" TranslateY="1000"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Grid>
     </Grid>
 </Page>
 

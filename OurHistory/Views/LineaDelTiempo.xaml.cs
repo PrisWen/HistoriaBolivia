@@ -36,6 +36,24 @@ namespace OurHistory.Views
             sliderLineTime.ValueChanged += sliderLineTime_ValueChanged;
             BotonAtras.Click += BotonAtras_Click;
             gohistory.Click += gohistory_Click;
+            Window.Current.SizeChanged += Current_SizeChanged;
+        }
+
+        void Current_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
+        {
+            if (e.Size.Width <= 1000)
+            {
+                this.imgPausa.Visibility = Visibility.Visible;
+                this.stack0.Visibility = Visibility.Collapsed;
+                BotonAtras.Visibility = Visibility.Collapsed;
+
+            }
+            else
+            {
+                this.stack0.Visibility = Visibility.Visible;
+                this.imgPausa.Visibility = Visibility.Collapsed;
+                BotonAtras.Visibility = Visibility.Visible;
+            }
         }
 
         void gohistory_Click(object sender, RoutedEventArgs e)

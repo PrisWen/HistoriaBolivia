@@ -38,12 +38,14 @@ namespace OurHistory
                 //this.StackPanelDatos.Visibility = Visibility.Collapsed;
                 this.imgPausa.Visibility = Visibility.Visible;
                 this.grid0.Visibility = Visibility.Collapsed;
+                this.AppBar.Visibility = Visibility.Collapsed;
 
             }
             else
             {
                 this.grid0.Visibility = Visibility.Visible;
                 this.imgPausa.Visibility = Visibility.Collapsed;
+                this.AppBar.Visibility = Visibility.Visible;
             }
         }
 

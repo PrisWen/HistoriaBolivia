@@ -26,14 +26,18 @@
     </Page.BottomAppBar>
     <Grid>
         <Image x:Name="imgPausa" Source="/Assets/Picture/pausa.jpg" Stretch="Fill" Visibility="Collapsed"/>
+
         <Grid x:Name="grid0" Margin="0,0,0,0" Visibility="Visible">
             <Grid.RowDefinitions>
                 <RowDefinition Height="157*"/>
                 <RowDefinition Height="611*"/>
             </Grid.RowDefinitions>
             <Grid.Background>
-                <ImageBrush ImageSource="/Assets/Picture/fondo.jpg"/>
+                <ImageBrush ImageSource="/Assets/Picture/fondojuego.jpg"/>
             </Grid.Background>
+            <TextBlock Text="NUESTRA HISTORIA LA INDEPENDENCIA" HorizontalAlignment="Center"
+                   TextWrapping="Wrap" FontSize="75" FontFamily="Segoe Marker"
+                   Foreground="Black" Margin="102,138,708,453" Grid.RowSpan="2" Width="556"/>
             <!--<Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="36" Margin="764,133,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="35"/>-->
             <Button Name="facil"  HorizontalAlignment="Left" Height="70" Margin="288,222,0,0" VerticalAlignment="Top" Width="218" Grid.Row="1">
                 <Button.Background>

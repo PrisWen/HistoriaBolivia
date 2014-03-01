@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WENDY</Machine>
-    <WindowsUser>Priscila Wendy</WindowsUser>
+    <Machine>ALY-PC</Machine>
+    <WindowsUser>ALY</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>28CBCC87703AFC4CAAF75551A50D7358F10C6F8C9774005148D9C1037265A353</RegisteredManifestChecksum>
+    <PackageIdentityName>4fbd7c19-5587-4a8c-b753-2996f444a2ff</PackageIdentityName>
+    <RegisteredManifestChecksum>9923B031D633616D2C73D0C26CB58DAFA9CBF351D2E68F6A59383A9FF149611A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4fbd7c19-5587-4a8c-b753-2996f444a2ff_1.0.0.0_neutral__hvee8dd4m5f0t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4fbd7c19-5587-4a8c-b753-2996f444a2ff_hvee8dd4m5f0t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4fbd7c19-5587-4a8c-b753-2996f444a2ff</RegisteredPackageID>
@@ -13,208 +14,200 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-25T15:51:39.949</Modified>
+      <Modified>2014-03-01T05:49:06.910</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe">
       <PackagePath>OurHistory.exe</PackagePath>
-      <Modified>2014-02-25T16:35:59.670</Modified>
+      <Modified>2014-03-01T06:12:39.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.pdb">
-      <PackagePath>OurHistory.pdb</PackagePath>
-      <Modified>2014-02-25T16:35:59.581</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2014-02-25T15:45:39.020</Modified>
+      <Modified>2014-02-26T14:20:23.008</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.xml">
-      <PackagePath>Newtonsoft.Json.xml</PackagePath>
-      <Modified>2014-02-25T15:45:39.027</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\FondoCreditos.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\FondoCreditos.jpg">
       <PackagePath>Assets\Picture\FondoCreditos.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.724</Modified>
+      <Modified>2014-02-26T14:20:21.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\amarillo.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\amarillo.jpg">
       <PackagePath>Assets\Picture\amarillo.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.735</Modified>
+      <Modified>2014-02-26T14:20:21.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\bandera.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\bandera.jpg">
       <PackagePath>Assets\Picture\bandera.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.739</Modified>
+      <Modified>2014-02-26T14:20:21.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\dificil.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\dificil.jpg">
       <PackagePath>Assets\Picture\dificil.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.744</Modified>
+      <Modified>2014-02-26T14:20:21.599</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\facil.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\facil.jpg">
       <PackagePath>Assets\Picture\facil.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.745</Modified>
+      <Modified>2014-02-26T14:20:21.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondo0.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondo0.jpg">
       <PackagePath>Assets\Picture\fondo0.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.761</Modified>
+      <Modified>2014-02-26T14:20:21.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondoJuego.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondoJuego.jpg">
       <PackagePath>Assets\Picture\fondoJuego.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.767</Modified>
+      <Modified>2014-02-26T14:20:21.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondoJuego2.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondoJuego2.jpg">
       <PackagePath>Assets\Picture\fondoJuego2.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.776</Modified>
+      <Modified>2014-02-26T14:20:21.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondoPregunta.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\fondoPregunta.jpg">
       <PackagePath>Assets\Picture\fondoPregunta.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.781</Modified>
+      <Modified>2014-02-26T14:20:21.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1810.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1810.jpg">
       <PackagePath>Assets\Picture\jjj1810.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.790</Modified>
+      <Modified>2014-02-26T14:20:21.657</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1811.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1811.jpg">
       <PackagePath>Assets\Picture\jjj1811.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.791</Modified>
+      <Modified>2014-02-26T14:20:21.661</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1808.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1808.jpg">
       <PackagePath>Assets\Picture\jjj1808.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.783</Modified>
+      <Modified>2014-02-26T14:20:21.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1809.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\jjj1809.jpg">
       <PackagePath>Assets\Picture\jjj1809.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.786</Modified>
+      <Modified>2014-02-26T14:20:21.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\medio.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\medio.jpg">
       <PackagePath>Assets\Picture\medio.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.795</Modified>
+      <Modified>2014-02-26T14:20:21.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\pausa.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\pausa.jpg">
       <PackagePath>Assets\Picture\pausa.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.800</Modified>
+      <Modified>2014-02-26T14:20:21.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\rojo.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\rojo.jpg">
       <PackagePath>Assets\Picture\rojo.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.803</Modified>
+      <Modified>2014-02-26T14:20:21.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\verde.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\verde.jpg">
       <PackagePath>Assets\Picture\verde.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.814</Modified>
+      <Modified>2014-02-26T14:20:21.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Images\Puzzle\imageTest1.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Images\Puzzle\imageTest1.jpg">
       <PackagePath>Images\Puzzle\imageTest1.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.877</Modified>
+      <Modified>2014-02-26T14:20:21.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\cultura.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\cultura.jpg">
       <PackagePath>Assets\Picture\cultura.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.741</Modified>
+      <Modified>2014-02-26T14:20:21.595</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\Background.JPG">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\Background.JPG">
       <PackagePath>Assets\Picture\Background.JPG</PackagePath>
-      <Modified>2014-02-25T15:45:37.642</Modified>
+      <Modified>2014-02-26T14:20:21.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\Fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\Fondo.jpg">
       <PackagePath>Assets\Picture\Fondo.jpg</PackagePath>
-      <Modified>2014-02-25T15:45:37.655</Modified>
+      <Modified>2014-02-26T14:20:21.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\siguiente.png">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\siguiente.png">
       <PackagePath>Assets\Picture\siguiente.png</PackagePath>
-      <Modified>2014-02-25T15:45:37.812</Modified>
+      <Modified>2014-02-26T14:20:21.678</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-25T15:45:37.590</Modified>
+      <Modified>2014-02-26T14:20:21.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\Bolivia.png">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\Bolivia.png">
       <PackagePath>Assets\Picture\Bolivia.png</PackagePath>
-      <Modified>2014-02-25T15:45:37.648</Modified>
+      <Modified>2014-02-26T14:20:21.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\JUGAR1.png">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\Picture\JUGAR1.png">
       <PackagePath>Assets\Picture\JUGAR1.png</PackagePath>
-      <Modified>2014-02-25T15:45:37.733</Modified>
+      <Modified>2014-02-26T14:20:21.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-25T15:45:37.815</Modified>
+      <Modified>2014-02-26T14:20:21.680</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-25T15:45:37.822</Modified>
+      <Modified>2014-02-26T14:20:21.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-25T15:45:37.824</Modified>
+      <Modified>2014-02-26T14:20:21.686</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\CarpetaJson\ListaPreguntas.json">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\CarpetaJson\ListaPreguntas.json">
       <PackagePath>CarpetaJson\ListaPreguntas.json</PackagePath>
-      <Modified>2014-02-25T15:45:37.836</Modified>
+      <Modified>2014-02-26T14:20:21.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\CarpetaJson\esquema.json">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\CarpetaJson\esquema.json">
       <PackagePath>CarpetaJson\esquema.json</PackagePath>
-      <Modified>2014-02-25T15:45:37.844</Modified>
+      <Modified>2014-02-26T16:53:14.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Sounds\aplausos.mp3">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Sounds\aplausos.mp3">
       <PackagePath>Sounds\aplausos.mp3</PackagePath>
-      <Modified>2014-02-25T15:45:37.908</Modified>
+      <Modified>2014-02-26T14:20:21.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Sounds\buu.mp3">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Sounds\buu.mp3">
       <PackagePath>Sounds\buu.mp3</PackagePath>
-      <Modified>2014-02-25T15:45:37.911</Modified>
+      <Modified>2014-02-26T14:20:21.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Sounds\Spotlight foco fanfarria 2.MP3">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Sounds\Spotlight foco fanfarria 2.MP3">
       <PackagePath>Sounds\Spotlight foco fanfarria 2.MP3</PackagePath>
-      <Modified>2014-02-25T15:45:37.905</Modified>
+      <Modified>2014-02-26T14:20:21.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\Common\ReadMe.txt">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
-      <Modified>2014-02-25T15:45:37.858</Modified>
+      <Modified>2014-02-26T14:20:21.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2014-02-25T16:32:07.184</Modified>
+      <Modified>2014-02-26T17:38:49.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.863</Modified>
+      <Modified>2014-02-26T14:20:21.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\UserControls\PreguntaControl.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\UserControls\PreguntaControl.xaml">
       <PackagePath>UserControls\PreguntaControl.xaml</PackagePath>
-      <Modified>2014-02-25T16:35:54.868</Modified>
+      <Modified>2014-02-26T17:17:17.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Creditos.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Creditos.xaml">
       <PackagePath>Views\Creditos.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.930</Modified>
+      <Modified>2014-03-01T05:46:00.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\HistoriaYear.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\HistoriaYear.xaml">
       <PackagePath>Views\HistoriaYear.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.934</Modified>
+      <Modified>2014-03-01T05:34:23.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\LineaDelTiempo.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\LineaDelTiempo.xaml">
       <PackagePath>Views\LineaDelTiempo.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.940</Modified>
+      <Modified>2014-03-01T05:34:23.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\MainPage.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\MainPage.xaml">
       <PackagePath>Views\MainPage.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.944</Modified>
+      <Modified>2014-03-01T05:54:15.594</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Puzzle\SelectImagePage.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Puzzle\SelectImagePage.xaml">
       <PackagePath>Views\Puzzle\SelectImagePage.xaml</PackagePath>
-      <Modified>2014-02-25T15:45:37.948</Modified>
+      <Modified>2014-02-26T14:20:21.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Start.xaml">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Views\Start.xaml">
       <PackagePath>Views\Start.xaml</PackagePath>
-      <Modified>2014-02-25T15:49:00.767</Modified>
+      <Modified>2014-03-01T06:12:37.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-02-25T15:51:39.574</Modified>
+      <Modified>2014-03-01T05:49:06.698</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

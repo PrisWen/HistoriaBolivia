@@ -17,7 +17,7 @@
 
             
             <DataTemplate x:Key="listaPreguntas">
-                <StackPanel  Margin="10,15,10,15">
+                <StackPanel  Margin="10,10,10,10">
                     <TextBlock Text="{Binding Opcion}" FontSize="18" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </StackPanel>
             </DataTemplate>

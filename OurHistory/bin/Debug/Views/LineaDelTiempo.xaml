@@ -14,9 +14,10 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/Picture/fondojuego.jpg"/>
         </Grid.Background>
+        <Image x:Name="imgPausa" Source="/Assets/Picture/pausa.jpg" Stretch="Fill" Visibility="Collapsed"/>
         <Button Style="{StaticResource BackButtonStyle}" 
                 Name="BotonAtras"  Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <StackPanel>
+        <StackPanel x:Name="stack0">
             <TextBlock Text="NUESTRA HISTORIA" HorizontalAlignment="Center" FontSize="65"
                        Foreground="Black" FontFamily="Segoe Marker" Margin="0,50,0,0"/>
             <TextBlock Text="LA INDEPENDENCIA" HorizontalAlignment="Center" 

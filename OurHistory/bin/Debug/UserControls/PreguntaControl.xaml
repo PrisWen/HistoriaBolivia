@@ -26,7 +26,8 @@
                 <TextBlock x:Name="UserPregunta" FontFamily="Segoe Marker"
                            Margin="38,30,36,30" HorizontalAlignment="Center" TextWrapping="Wrap"
                     Text="¿Cuál es la capital constitucional de Bolivia?" Foreground="AliceBlue"  FontSize="40" Width="652"/>
-                <ListBox x:ConnectionId='2' x:Name="lstOpciones" Visibility="Visible" Height="303"                                                 Margin="32,20,51,20" ItemTemplate="{StaticResource listaPreguntas}">
+                
+                <ListBox x:ConnectionId='2' x:Name="lstOpciones" Visibility="Visible" Height="250"                                                 Margin="32,20,51,20" ItemTemplate="{StaticResource listaPreguntas}">
 
                     <ListBoxItem Margin="30,30" HorizontalAlignment="Center" FontSize="20" FontFamily="Segoe Marker">Sucre</ListBoxItem>
                 </ListBox>

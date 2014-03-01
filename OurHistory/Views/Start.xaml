@@ -23,7 +23,7 @@
         </AppBar>
     </Page.BottomAppBar>
     <Grid>
-        <Image x:Name="imgPausa" Source="/Assets/Picture/cultura.jpg" Stretch="Fill" Visibility="Collapsed"/>
+        <Image x:Name="imgPausa" Source="/Assets/Picture/pausa.jpg" Stretch="Fill" Visibility="Collapsed"/>
         <Grid x:Name="grid0" Margin="0,0,0,0" Visibility="Visible">
             <Grid.Background>
                 <ImageBrush ImageSource="/Assets/Picture/fondojuego.JPG"/>
@@ -49,12 +49,12 @@
             <Button Name="botob" Content="Button" HorizontalAlignment="Left" Visibility="Collapsed" Height="57" Margin="64,656,0,0" VerticalAlignment="Top" Width="162"/>
             <Button Click="Button_Click"  Visibility="Collapsed">PUZZLE</Button>
 
-            <Border BorderBrush="Black" BorderThickness="3" Margin="70,250"
-                Width="254" Height="200" x:Name="gridGenerales" Visibility="Collapsed"
+            <Border BorderBrush="Black" BorderThickness="0" Margin="70,250"
+                Width="254" Height="200" x:Name="gridGenerales" Visibility="Visible"
                 HorizontalAlignment="Left" VerticalAlignment="Top">
 
                 <Grid Height="290">
-                    <Border BorderBrush="Black" BorderThickness="3" Width="250" Height="50" VerticalAlignment="Top">
+                    <Border BorderBrush="Black" BorderThickness="0" Width="250" Height="50" VerticalAlignment="Top">
                         <TextBlock Foreground="Black" FontSize="26">Preguntas Generales</TextBlock>
                     </Border>
 

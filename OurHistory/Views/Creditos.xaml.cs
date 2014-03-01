@@ -32,6 +32,23 @@ namespace OurHistory.Views
             CargandoCreditos();
             Storyboard1.Begin();
             BotonAtras.Click += BotonAtras_Click;
+            Window.Current.SizeChanged += Current_SizeChanged;
+        }
+
+        void Current_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
+        {
+            if (e.Size.Width <= 1000)
+            {
+                
+                this.grid0.Visibility = Visibility.Collapsed;
+                this.imgPausa.Visibility = Visibility.Visible;
+
+            }
+            else
+            {
+                this.grid0.Visibility = Visibility.Visible;
+                this.imgPausa.Visibility = Visibility.Collapsed;
+            }
         }
         void CargandoCreditos()
         {

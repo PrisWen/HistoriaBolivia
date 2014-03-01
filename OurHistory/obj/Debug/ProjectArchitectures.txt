@@ -1,1 +1,1 @@
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\OurHistory.csproj;neutral
+C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\OurHistory.csproj;neutral

@@ -61,7 +61,7 @@
 					],
 				},
 				{
-					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDIGENAS",
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
 					"Sucesos": [
 						"► Los Padilla",
 					],
@@ -95,7 +95,7 @@
 					],
 				},
 				{
-					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDIGENAS",
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
 					"Sucesos": [
 						"► Cáceres cerca de La Paz liderizando a los indígenas",
 					],
@@ -135,7 +135,7 @@
 					],
 				},
 				{
-					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDIGENAS",
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
 					"Sucesos": [
 						"► Warnes",
 					],
@@ -173,7 +173,7 @@
 				{
 					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y EN BUENOS AIRES",
 					"Sucesos": [
-						"► Insurrección en Cusco de los Angulo y Pumacahua contra el rey",
+						"► Insurrección en Cusco de los Angulo y Pumacahua contra el rey y a favor de los patriotas",
 					],
 				},
 			],
@@ -184,7 +184,21 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Pezuela vence en Venta y Media a Rondeau",
+						"► La Serna jefe del ejército realista",
+					],
+				},
+				{
+					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
+					"Sucesos": [
+						"► Rondeau - Tercer ejército auxiliar",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y BUENOS AIRES",
+					"Sucesos": [
+						"► Mueren Angulo y Pumacahua",
+						"► Pezuela Virrey",
 					],
 				},
 			],
@@ -193,9 +207,16 @@
 			"anio" : 1816,
 			"lstAnio" : [
 				{
-					"pertenece": "EJERCITOS REALISTAS",
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Aguilera vence a Padilla",
+						"► Aguilera vence a Warnes",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y BUENOS AIRES",
+					"Sucesos": [
+						"► Congreso Tucumán proclama independencia Argentina",
 					],
 				},
 			],
@@ -204,9 +225,21 @@
 			"anio" : 1817,
 			"lstAnio" : [
 				{
-					"pertenece": "EJERCITOS REALISTAS",
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Chinchilla jefe en Ayopaya",
+					],
+				},
+				{
+					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
+					"Sucesos": [
+						"► Cuarto ejército auxiliar, La Madrid",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y BUENOS AIRES",
+					"Sucesos": [
+						"► San Martín cruza los Andes",
 					],
 				},
 			],
@@ -215,9 +248,9 @@
 			"anio" : 1818,
 			"lstAnio" : [
 				{
-					"pertenece": "EJERCITOS REALISTAS",
+					"pertenece": "------",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► --------",
 					],
 				},
 			],
@@ -226,9 +259,9 @@
 			"anio" : 1819,
 			"lstAnio" : [
 				{
-					"pertenece": "EJERCITOS REALISTAS",
+					"pertenece": "-----",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► ------",
 					],
 				},
 			],
@@ -237,9 +270,9 @@
 			"anio" : 1820,
 			"lstAnio" : [
 				{
-					"pertenece": "EJERCITOS REALISTAS",
+					"pertenece": "------",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► -----",
 					],
 				},
 			],
@@ -250,7 +283,21 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Canterac jefe del ejército realista",
+					],
+				},
+				{
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
+					"Sucesos": [
+						"► Lanza jefe en Ayopaya",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y BUENOS AIRES",
+					"Sucesos": [
+						"► La Serna Virrey se va a Cuzco",
+						"► San Martín entra en Lima",
+						"► Independencia en Perú",
 					],
 				},
 			],
@@ -261,7 +308,13 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Diferencias entre liberales y absolutistas",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y BUENOS AIRES",
+					"Sucesos": [
+						"► Bolívar y San Martín en Guayaquil",
 					],
 				},
 			],
@@ -272,7 +325,13 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Rebelión del General Olañeta",
+					],
+				},
+				{
+					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
+					"Sucesos": [
+						"► Fracaso de la Expedicion de Santa Cruz y Gamarra al Alto Perú",
 					],
 				},
 			],
@@ -283,7 +342,20 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Valdez liberal contra Olañeta Absolutista",
+					],
+				},
+				{
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
+					"Sucesos": [
+						"► Sigue Gerrilla de Ayopaya",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LOS VIRREINATOS DE LIMA Y BUENOS AIRES",
+					"Sucesos": [
+						"► Victoria de Bolívar en Junín",
+						"► Victoria de Sucre en Ayacucho",
 					],
 				},
 			],
@@ -294,7 +366,29 @@
 				{
 					"pertenece": "EJERCITOS REALISTAS",
 					"Sucesos": [
-						"► Pumacahua entra en La Paz con los realistas",
+						"► Muere el General Olañeta",
+					],
+				},
+				{
+					"pertenece": "SUCESOS EN LAS CIUDADES",
+					"Sucesos": [
+						"► La Paz, decreto del 9 de febrero",
+						"► Chuquisaca proclama la independencia",
+					],
+				},
+				{
+					"pertenece": "GUERRILLAS Y LEVANTAMIENTOS INDÍGENAS",
+					"Sucesos": [
+						"► Lanza",
+					],
+				},
+				{
+					"pertenece": "EJERCITOS AUXILIARES - EJERCITOS LIBERTADORES",
+					"Sucesos": [
+						"► Sucre llega al Desaguadero encuentro con Casimiro Olañeta",
+						"► Victoria de Suipacha",
+						"► En Potosí Castelli ejecuta a Paula Sanz",
+						"► Ejército Auxiliar se lleva la plata de la moneda",
 					],
 				},
 			],
