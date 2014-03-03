@@ -90,53 +90,6 @@ C:\Users\ALY\Documents\GitHub\OurHistory5\OurHistory\obj\Debug\qualifiers.txt
 C:\Users\ALY\Documents\GitHub\OurHistory5\OurHistory\obj\Debug\qualifiers.txt.intermediate
 C:\Users\ALY\Documents\GitHub\OurHistory5\OurHistory\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ALY\Documents\GitHub\OurHistory5\OurHistory\obj\Debug\ProjectArchitectures.txt
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\ListaPreguntas.json
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.pdb
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\resources.pri
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\AppxManifest.xml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.build.appxrecipe
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.csprojResolveAssemblyReference.cache
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\App.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\App.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\XamlTypeInfo.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\App.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.exe
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.pdb
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.csproj.GenerateResource.Cache
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\priconfig.xml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\layout.resfiles
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\resources.resfiles
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\pri.resfiles
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\LanguageQualifiers.txt
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\ProjectArchitectures.txt
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\esquema.json
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.i.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.cs
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.xaml
-C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.xaml
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\ListaPreguntas.json
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\esquema.json
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe
@@ -189,3 +142,52 @@ C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\qualifiers.tx
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\qualifiers.txt.intermediate
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ALY\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\ProjectArchitectures.txt
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\ListaPreguntas.json
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\CarpetaJson\esquema.json
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.exe
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.pdb
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\resources.pri
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\AppxManifest.xml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\OurHistory.build.appxrecipe
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\App.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\App.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\UserControlTest.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\UserControlTest.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.g.i.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\App.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\PreguntaControl.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Creditos.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\HistoriaYear.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\LineaDelTiempo.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\MainPage.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Puzzle\SelectImagePage.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\UserControls\UserControlTest.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\Views\Start.xaml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.exe
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.pdb
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\OurHistory.csproj.GenerateResource.Cache
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\priconfig.xml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\layout.resfiles
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\resources.resfiles
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\pri.resfiles
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\LanguageQualifiers.txt
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\OurHistory\obj\Debug\ProjectArchitectures.txt

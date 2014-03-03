@@ -26,6 +26,7 @@ Assets\StoreLogo.png
 App.xaml
 Common\StandardStyles.xaml
 UserControls\PreguntaControl.xaml
+UserControls\UserControlTest.xaml
 Views\Creditos.xaml
 Views\HistoriaYear.xaml
 Views\LineaDelTiempo.xaml

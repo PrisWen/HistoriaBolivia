@@ -14,7 +14,7 @@
         </Style>
     </Page.Resources>
     <Page.BottomAppBar>
-        <AppBar x:Name="AppBar" IsSticky="True" Background="Chocolate" HorizontalAlignment="Left">
+        <AppBar x:Name="AppBar" IsSticky="True" Background="Chocolate" HorizontalAlignment="Left" Visibility="Collapsed">
             <Grid>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                     <Button x:Name="Creditos" Style="{StaticResource botCreditos}" />
@@ -50,7 +50,7 @@
             <Button Click="Button_Click"  Visibility="Collapsed">PUZZLE</Button>
 
             <Border BorderBrush="Black" BorderThickness="0" Margin="70,250"
-                Width="254" Height="200" x:Name="gridGenerales" Visibility="Visible"
+                Width="254" Height="200" x:Name="gridGenerales" Visibility="Collapsed"
                 HorizontalAlignment="Left" VerticalAlignment="Top">
 
                 <Grid Height="290">

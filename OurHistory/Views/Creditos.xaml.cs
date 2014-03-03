@@ -52,7 +52,7 @@ namespace OurHistory.Views
         }
         void CargandoCreditos()
         {
-            txtCredits2.Text = "DESIGNERS\n\nEspinoza Tito Priscila\nGuerrero Quiñajo Milenka\nParisaca Quispe Alison\n\n\nDEVELOPERS\n\nEspinoza Tito Priscila\nGuerrero Quiñajo Milenka\nParisaca Quispe Alison";
+            txtCredits2.Text = "DISEÑADORAS\n\nEspinoza Tito Priscila Wendy\nGuerrero Quiñajo Milenka Anahi\nParisaca Quispe Alison\n\n\nDESARROLLADORAS\n\nEspinoza Tito Priscila Wendy\nGuerrero Quiñajo Milenka Anahi\nParisaca Quispe Alison";
             txtFuentes.Text = "FUENTE\n\nHistoria de Bolivia\nOctava Edición\nCarlos D. Mesa Gisbert\nJose de Mesa\nTeresa Gisbert\nEditorial Gisbert\nLibro V - La Independencia\n1800 - 1820";
         }
         void BotonAtras_Click(object sender, RoutedEventArgs e)

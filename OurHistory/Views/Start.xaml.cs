@@ -144,7 +144,7 @@ namespace OurHistory.Views
                 Pregunta preg = new Pregunta();
                 preg.Codigo = 101;
                 preg.Descripcion = "La ciudad de Pando fue creada el:";
-                preg.DetalleRespuesta = "PANDO \n Creado el 24 de Septiembre de 1938 en el gobierno de Tcnl. German Buch. \n Fecha cívica: 24 de Septiembre (1938) \n Héroe departamental: José Manuel Pando";
+                preg.DetalleRespuesta = "PANDO \nCreado el 24 de Septiembre de 1938 en el gobierno de Tcnl. German Buch. \nFecha cívica: 24 de Septiembre (1938) \nHéroe departamental: José Manuel Pando";
                 preg.RespuestaC = "24 de septiembre de 1938";
                 preg.RespuestasO = new List<string> { "24 de septiembre de 1950", "24 de septiembre de 1938", "9 de febrero de 1906" };
                 preg.Puntaje = 10;

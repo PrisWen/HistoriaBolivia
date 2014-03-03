@@ -1,10 +1,12 @@
-﻿using OurHistory.Views;
+﻿using OurHistory.UserControls;
+using OurHistory.Views;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ApplicationSettings;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -51,11 +53,26 @@ namespace OurHistory
 
         void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
+            SettingsPane.GetForCurrentView().CommandsRequested += MainPage_CommandsRequested;
             facil.Click += facil_Click;
             medio.Click += medio_Click;
             dificil.Click += dificil_Click;
             Creditos.Click += Creditos_Click;
             lineTime.Click += lineTime_Click;
+        }
+
+        void MainPage_CommandsRequested(SettingsPane sender, SettingsPaneCommandsRequestedEventArgs args)
+        {
+            args.Request.ApplicationCommands.Clear();
+            var jkCommand = new SettingsCommand("Acerca de", "Acerca de",
+                                                (handler) =>
+                                                {
+                                                    var settingsHelper = new SettingsWindowHelper();
+                                                    settingsHelper.ShowFlyout(new UserControlTest());
+
+                                                });
+
+            args.Request.ApplicationCommands.Add(jkCommand);
         }
 
         void lineTime_Click(object sender, RoutedEventArgs e)
@@ -96,6 +113,56 @@ namespace OurHistory
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+    }
+
+    public class SettingsWindowHelper
+    {
+        /// <summary>Default Window Size</summary>
+        public const double DEFAULT_WIDTH = 346;
+        /// <summary>Allow to show any control floating over the main Window</summary>
+        private Popup _popup;
+        /// <summary>Delegate to execute when Popup is closed</summary>
+        Action CloseAction;
+
+
+        public SettingsWindowHelper()
+        {
+            _popup = new Popup();
+            _popup.IsLightDismissEnabled = true;
+            _popup.Closed += OnPopupClosed;
+        }
+        void OnPopupClosed(object sender, object e)
+        {
+            if (CloseAction != null)
+                CloseAction.Invoke();
+        }
+        public void ShowFlyout(UserControl control, Action closeAction = null,
+                        double width = DEFAULT_WIDTH)
+        {
+            //Asignar acciÃ³n a ejecutar al cerrar el Popup
+            CloseAction = closeAction;
+
+            //Asignar ancho y alto del Popup
+            _popup.Width = width;
+            _popup.Height = Window.Current.Bounds.Height;
+
+            /* Asignar el ancho y alto del control
+                * Aunque este puede ya traerlos definidos
+                * en este caso es conveniente adecuarlo a 
+                * la estructura que hemos planteado*/
+            control.Width = width;
+            control.Height = Window.Current.Bounds.Height;
+
+            //Asignar el control del parÃ¡metro al Popup
+            _popup.Child = control;
+
+            //Establecer en que parte de la ventana se comienza a dibujar el Popup
+            _popup.VerticalOffset = 0;
+            _popup.HorizontalOffset = Window.Current.Bounds.Width - width;
+
+            //Mostrar el Popup, sus contenidos
+            _popup.IsOpen = true;
         }
     }
 }
