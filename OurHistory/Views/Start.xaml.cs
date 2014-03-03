@@ -214,7 +214,7 @@ namespace OurHistory.Views
 		                                                "Luis de Fuentes",
 		                                                "Jaime Zudañez"};
                 preg.RespuestaC = "Moto Méndez";
-                preg.DetalleRespuesta = "TARIJA Creado el 24 de Septiembre de 1831 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial) Fecha cívica: 15 de Abril (1817) Héroe departamental: José Eustaquio (Moto Méndez) La capital del departamento es Tarija fundada el 4 de Julio por Luis de Fuentes. Nombre español: Villa y frontera de Tarija";
+                preg.DetalleRespuesta = "TARIJA Creado el 24 de Septiembre de 1831 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial)\nFecha cívica: 15 de Abril (1817)\nHéroe departamental: José Eustaquio (Moto Méndez)\nLa capital del departamento es Tarija fundada el 4 de Julio por Luis de Fuentes.\nNombre español: Villa y frontera de Tarija";
                 preg.Puntaje = 100;
                 codigos.Add(preg);
 
@@ -225,7 +225,7 @@ namespace OurHistory.Views
 				                                        "Mariscal Antonio José de Sucre ",
 				                                        "Jaime Zudañez " };
                 preg.RespuestaC = "Gral. José Ballivián y Segurola";
-                preg.DetalleRespuesta = "CHUQUISACA Creado el 23 de Enero de 1826   en el gobierno del Gral. José Ballivián y Segurola Fecha cívica: 25 de Mayo (1809) Héroe departamental: Jaime Zudañez La capital del departamento  es Sucre hay tres versiones de la fundación\n1.El 29 de Septiembre de 1538 por Gonzalo Pizarro\n2.El 16 de Abril de 1540 por Pedro Anzurez\n3.No hubo acto oficial de fundación\nNombre español: La Plata Nombre indígena: Choquechaca La ciudad además ha tenido además la denominación de Charcas, ciudad Blanca y tras la fundación de la Republica, Sucre en honor al Mariscal Antonio José de Sucre";
+                preg.DetalleRespuesta = "CHUQUISACA Creado el 23 de Enero de 1826   en el gobierno del Gral. José Ballivián y Segurola\nFecha cívica: 25 de Mayo (1809)\nHéroe departamental: Jaime Zudañez La capital del departamento  es Sucre hay tres versiones de la fundación\n1.El 29 de Septiembre de 1538 por Gonzalo Pizarro\n2.El 16 de Abril de 1540 por Pedro Anzurez\n3.No hubo acto oficial de fundación\nNombre español: La Plata Nombre indígena: Choquechaca La ciudad además ha tenido además la denominación de Charcas, ciudad Blanca y tras la fundación de la Republica, Sucre en honor al Mariscal Antonio José de Sucre";
                 preg.Puntaje = 100;
                 codigos.Add(preg);
 
