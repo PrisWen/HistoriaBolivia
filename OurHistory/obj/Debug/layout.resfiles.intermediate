@@ -1,3 +1,5 @@
+Assets\badge.png
+Assets\grande.png
 Assets\Logo.png
 Assets\Picture\Background.JPG
 Assets\Picture\Bolivia.png
@@ -26,6 +28,7 @@ Assets\StoreLogo.png
 App.xaml
 Common\StandardStyles.xaml
 UserControls\PreguntaControl.xaml
+UserControls\UserControlTest.xaml
 Views\Creditos.xaml
 Views\HistoriaYear.xaml
 Views\LineaDelTiempo.xaml
@@ -36,6 +39,9 @@ CarpetaJson\esquema.json
 CarpetaJson\ListaPreguntas.json
 Common\ReadMe.txt
 Images\Puzzle\imageTest1.jpg
+Scripts\jquery-2.1.0.intellisense.js
+Scripts\jquery-2.1.0.js
+Scripts\jquery-2.1.0.min.js
 Sounds\aplausos.mp3
 Sounds\buu.mp3
 Sounds\Spotlight foco fanfarria 2.MP3

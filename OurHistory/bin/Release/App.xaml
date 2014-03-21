@@ -1,0 +1,43 @@
+﻿<Application
+    x:Class="OurHistory.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OurHistory">
+
+    <Application.Resources>
+
+        <ResourceDictionary >
+            <ResourceDictionary.MergedDictionaries>
+                <!-- 
+                    Styles that define common aspects of the platform look and feel
+                    Required by Visual Studio project and item templates
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            
+            <DataTemplate x:Key="listaPreguntas">
+                <StackPanel  Margin="10,10,10,10">
+                    <TextBlock Text="{Binding Opcion}" FontSize="18" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </DataTemplate>
+            
+            <DataTemplate x:Key="listaAnio">
+                <StackPanel  Margin="10,25,10,25">
+                    <TextBlock Text="{Binding pertenece}" FontSize="35"
+                               Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"
+                               FontFamily="Segoe Marker"/>
+                </StackPanel>
+            </DataTemplate>
+            <DataTemplate x:Key="listaSucesos">
+                <StackPanel  >
+                    <TextBlock Text="{Binding}" FontSize="40"
+                               FontFamily="Segoe Marker"
+                               Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
+

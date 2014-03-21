@@ -1,0 +1,16 @@
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\bin\Debug\BackGroundTask3.winmd
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\bin\Debug\BackGroundTask3.pdb
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\bin\Debug\BackGroundTask3.pri
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\BackGroundTask3.winmd
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\BackGroundTask3.pdb
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\BackGroundTask3.winmdobj
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\BackGroundTask3.compile.pdb
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\priconfig.xml.intermediate
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\layout.resfiles.intermediate
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\resources.resfiles.intermediate
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\pri.resfiles.intermediate
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\priconfig.xml
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\layout.resfiles
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\resources.resfiles
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\pri.resfiles
+C:\Users\Priscila Wendy\Documents\GitHub\HistoriaBolivia\BackGroundTask3\obj\Debug\LanguageQualifiers.txt

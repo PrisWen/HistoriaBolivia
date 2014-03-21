@@ -12,9 +12,10 @@
     <DefaultLanguage>es</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>OurHistory_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>OurHistory_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-    <AppxPackageDir>C:\Users\Priscila Wendy\Desktop\package our history\</AppxPackageDir>
+    <AppxPackageDir>E:\carrera\Semestres UMSA\7 Septimo Semestre\proyecto geografia\paquete 2\</AppxPackageDir>
+    <PackageCertificateThumbprint>78D52E92D94767D1236EEFD2BB209970F60BDAE5</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -156,6 +157,10 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\badge.png" />
+    <Content Include="Assets\grande.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Picture\Background.JPG" />
     <Content Include="Assets\Picture\FondoCreditos.jpg" />
     <Content Include="Assets\Picture\dificil.jpg" />
     <Content Include="Assets\Picture\facil.jpg" />
@@ -176,6 +181,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Puzzle\imageTest1.jpg" />
+    <None Include="OurHistory_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Scripts\jquery-2.1.0.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.0.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.js" />
     <Content Include="Sounds\aplausos.mp3" />
     <Content Include="Sounds\buu.mp3" />
     <Content Include="Sounds\Spotlight foco fanfarria 2.MP3" />
@@ -184,11 +194,10 @@
     </Content>
     <None Include="OurHistory_TemporaryKey.pfx" />
     <None Include="packages.config" />
+    <None Include="Scripts\jquery-2.1.0.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Picture\cultura.jpg" />
-    <Content Include="Assets\Picture\Background.JPG" />
     <Content Include="Assets\Picture\Bolivia.png" />
     <Content Include="Assets\Picture\JUGAR1.png" />
     <Content Include="Assets\SmallLogo.png" />
@@ -243,6 +252,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\netcore45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackGroundTask3\BackGroundTask3.csproj">
+      <Project>{0958569e-c0ee-4e8b-b352-099c53e60447}</Project>
+      <Name>BackGroundTask3</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
     <VisualStudioVersion>11.0</VisualStudioVersion>

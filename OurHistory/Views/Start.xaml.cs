@@ -159,7 +159,7 @@ namespace OurHistory.Views
 				                                        "20 de octubre de 1548",
 				                                        "9 de marzo de 1809"};
                 preg.RespuestaC = "20 de octubre de 1548";
-                preg.DetalleRespuesta = "LA PAZ \n Creado el 23 de Enero de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial) \n Fecha cívica: 16 de Julio de (1809) Héroe departamental: Pedro Domingo Murillo La Capital del departamento  es La Paz fundada el 20 de octubre de 1548 por el capitán Alonzo de Mendoza originalmente en lo que hoy es el pueblo de Laja, para trasladarse a los tres días al valle de Chuquiago. Nombre español: Nuestra Señora de La Paz Nombre indígena: Chuquiago";
+                preg.DetalleRespuesta = "LA PAZ\nCreado el 23 de Enero de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial)\nFecha cívica: 16 de Julio de (1809) Héroe departamental: Pedro Domingo Murillo La Capital del departamento  es La Paz fundada el 20 de octubre de 1548 por el capitán Alonzo de Mendoza originalmente en lo que hoy es el pueblo de Laja, para trasladarse a los tres días al valle de Chuquiago. Nombre español: Nuestra Señora de La Paz Nombre indígena: Chuquiago";
                 preg.Puntaje = 100;
                 codigos.Add(preg);
 
@@ -192,7 +192,7 @@ namespace OurHistory.Views
 				                                        "Mcal. Antonio José de Sucre",
 				                                        "Lic. Manuel Castro de Padilla" };
                 preg.RespuestaC = "Lic. Manuel Castro de Padilla";
-                preg.DetalleRespuesta = "ORURO Creado el 5 de Septiembre de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial) Fecha cívica: 10 de Febrero (1781) Héroe departamental: Sebastián Pagador La capital del departamento es Oruro fundada el 1º de noviembre de 1606 por el Lic. Manuel Castro de Padilla. Nombre español: Villa de san Felipe de Austria Nombre indígena: Uru Uru";
+                preg.DetalleRespuesta = "ORURO\nCreado el 5 de Septiembre de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial)\nFecha cívica: 10 de Febrero (1781)\nHéroe departamental: Sebastián Pagador\nLa capital del departamento es Oruro fundada el 1º de noviembre de 1606 por el Lic. Manuel Castro de Padilla.\nNombre español: Villa de san Felipe de Austria\nNombre indígena: Uru Uru";
                 preg.Puntaje = 100;
                 codigos.Add(preg);
 
@@ -203,7 +203,7 @@ namespace OurHistory.Views
 		                                                "23 de febrero de 1825 ",
 		                                                "10 noviembre de 1810 " };
                 preg.RespuestaC = "23 de enero de 1826";
-                preg.DetalleRespuesta = "POTOSI Creado el  23 de Enero de 1826  en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial) Fecha cívica: 10 de Noviembre (1810) Héroe departamental: Alonzo de Ibáñez La capital del departamento es Potosí fundada en 1545 por Juan de Villarroel, aunque en realidad este recibió el título de fundado por Célula Real, ya que la ciudad nació espontáneamente por la riqueza del cerro rico. El Virrey Francisco de Toledo realizo la verdadera fundación y planeamiento en 1572. Nombre español: Villa Imperial de Potosí Nombre indígena: Potosí";
+                preg.DetalleRespuesta = "POTOSI\nCreado el  23 de Enero de 1826  en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial)\nFecha cívica: 10 de Noviembre (1810)\nHéroe departamental: Alonzo de Ibáñez\nLa capital del departamento es Potosí fundada en 1545 por Juan de Villarroel, aunque en realidad este recibió el título de fundado por Célula Real, ya que la ciudad nació espontáneamente por la riqueza del cerro rico. El Virrey Francisco de Toledo realizo la verdadera fundación y planeamiento en 1572.\nNombre español: Villa Imperial de Potosí\nNombre indígena: Potosí";
                 preg.Puntaje = 100;
                 codigos.Add(preg);
 
@@ -248,7 +248,7 @@ namespace OurHistory.Views
 				                                        "Ignacio Warnes",
 				                                        "Jaime Zudañez "};
                 preg.RespuestaC = "Ignacio Warnes";
-                preg.DetalleRespuesta = "SANTA CRUZ Creado el 23 de Enero de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial). Fecha cívica: 24 de Septiembre (1810) Héroe departamental: Ignacio Warnes La capital del departamento es Santa Cruz de la Sierra fundada el 26 de Febrero de 1560 por Ñuflo de Chávez. En 1604 Francisco de Alfaro traslado la ciudad de su antiguo lugar a otro llamado San Lorenzo de la Barraca, donde quedo definitivamente. Nombre español: Santa Cruz de la Sierra";
+                preg.DetalleRespuesta = "SANTA CRUZ Creado el 23 de Enero de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial).\nFecha cívica: 24 de Septiembre (1810)\nHéroe departamental: Ignacio Warnes La capital del departamento es Santa Cruz de la Sierra fundada el 26 de Febrero de 1560 por Ñuflo de Chávez. En 1604 Francisco de Alfaro traslado la ciudad de su antiguo lugar a otro llamado San Lorenzo de la Barraca, donde quedo definitivamente.\nNombre español: Santa Cruz de la Sierra";
                 preg.Puntaje = 100;
                 codigos.Add(preg);
 
@@ -269,7 +269,7 @@ namespace OurHistory.Views
                 preg.Descripcion = "Capital del departamento Cochabamba fundada el 4 de Agosto de 1571 :";
                 preg.RespuestasO = new List<string> { "Falso", "Verdadero" };
                 preg.RespuestaC = "Falso";
-                preg.DetalleRespuesta = "COCHABAMBA Creado el 23 de Enero de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial) Fecha cívica: 14 de Septiembre (1810) Héroe departamental: Esteban Arze La capital del departamento es Cochabamba fundada el 2 de Agosto de 1571 por el capitán español Jerónimo de Osorio Nombre español: Villa de Oropesa Nombre indígena: Khocha Pampa";
+                preg.DetalleRespuesta = "COCHABAMBA Creado el 23 de Enero de 1826 en el gobierno del Mcal. Antonio José de Sucre (sobre la base de la división política colonial)\nFecha cívica: 14 de Septiembre (1810)\nHéroe departamental: Esteban Arze La capital del departamento es Cochabamba fundada el 2 de Agosto de 1571 por el capitán español Jerónimo de Osorio\nNombre español: Villa de Oropesa\nNombre indígena: Khocha Pampa";
                 preg.Puntaje = 100;
                 codigos.Add(preg);
 
@@ -508,7 +508,7 @@ namespace OurHistory.Views
 				                                            "18 de Diciembre de 1842",
                                                             "14 de Noviembre de 1842  "};
                     preg.RespuestaC = "18 de Noviembre de 1842";
-                    preg.DetalleRespuesta = "BENI \n Creado el 18 de Noviembre de 1842  en el gobierno de Gral. José Ballivián y Segurola \n Fecha cívica: 18 de Noviembre (1842)\n Héroe departamental: José Ballivián y Segurola \n La capital del departamento es Trinidad fundada 1686 por el Padre Jesuita Cipriano Barace.\n Nombre español: Misión de la Santísima Trinidad";
+                    preg.DetalleRespuesta = "BENI \n Creado el 18 de Noviembre de 1842  en el gobierno de Gral. José Ballivián y Segurola\nFecha cívica: 18 de Noviembre (1842)\n Héroe departamental: José Ballivián y Segurola \n La capital del departamento es Trinidad fundada 1686 por el Padre Jesuita Cipriano Barace.\n Nombre español: Misión de la Santísima Trinidad";
                     preg.Puntaje = 100;
                     codigos.Add(preg);
 

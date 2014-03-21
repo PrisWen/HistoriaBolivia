@@ -7,10 +7,10 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="4fbd7c19-5587-4a8c-b753-2996f444a2ff" Publisher="CN=Priscila Wendy" Version="1.0.0.1" ProcessorArchitecture="neutral" />
+  <Identity Name="27094MSPsBolivia.NuestraHistoria-Laindependencia" Publisher="CN=C371548B-C6E8-4BE1-A1CE-ABF6100B001A" Version="1.0.0.6" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>OurHistory</DisplayName>
-    <PublisherDisplayName>Eagle Rain</PublisherDisplayName>
+    <DisplayName>Nuestra Historia - La independencia</DisplayName>
+    <PublisherDisplayName>MSPs Bolivia</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -22,12 +22,28 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="OurHistory.exe" EntryPoint="OurHistory.App">
-      <VisualElements DisplayName="Nuestra Historia - La Independencia" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="OurHistory" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="logoOnly" />
+      <VisualElements DisplayName="Nuestra Historia - La Independencia" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="OurHistory" ForegroundText="light" BackgroundColor="#FF7801">
+        <LockScreen Notification="badgeAndTileText" BadgeLogo="Assets\badge.png" />
+        <DefaultTile ShowName="logoOnly" WideLogo="Assets\grande.png" />
         <SplashScreen Image="Assets\SplashScreen.png" />
       </VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="BackGroundTask3.TileUpdate3">
+          <BackgroundTasks>
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
     </Application>
   </Applications>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="BackGroundTask3.TileUpdate3" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5" />
     <build:Item Name="VisualStudio" Version="11.0" />

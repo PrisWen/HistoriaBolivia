@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Windows.ApplicationModel.Background;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.ApplicationSettings;
@@ -24,6 +25,11 @@ namespace OurHistory
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+
+        private const string TASK_NAME = "TileUpdate3";
+        private const string TASK_ENTRY = "BackGroundTask3.TileUpdate3";
+
         string nivel;
         public MainPage()
         {
@@ -111,8 +117,25 @@ namespace OurHistory
         /// </summary>
         /// <param name="e">Event data that describes how this page was reached.  The Parameter
         /// property is typically used to configure the page.</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
+            var result = await BackgroundExecutionManager.RequestAccessAsync();
+            if (result == BackgroundAccessStatus.AllowedMayUseActiveRealTimeConnectivity ||
+                result == BackgroundAccessStatus.AllowedWithAlwaysOnRealTimeConnectivity)
+            {
+                foreach (var task in BackgroundTaskRegistration.AllTasks)
+                {
+                    if (task.Value.Name == TASK_NAME)
+                        task.Value.Unregister(true);
+                }
+
+                BackgroundTaskBuilder builder = new BackgroundTaskBuilder();
+                builder.Name = TASK_NAME;
+                builder.TaskEntryPoint = TASK_ENTRY;
+                builder.SetTrigger(new TimeTrigger(15, false));
+                var registration = builder.Register();
+            }
+
         }
     }
 
